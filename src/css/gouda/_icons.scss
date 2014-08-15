@@ -1,0 +1,808 @@
+// ---------- Gouda Icons
+
+%icon {
+	
+	font-size: 16px;
+	vertical-align: top;
+	text-align: center;
+	-moz-transition: color .1s ease-in 0;
+	-webkit-transition: color .1s ease-in 0;
+	display: inline-block;
+	font-family: $genericons;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-decoration: inherit;
+	text-transform: none;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	speak: none;
+
+}
+
+%icon-404 {
+
+	content: "\f423";
+
+}
+
+%icon-aside {
+
+	content: "\f101";
+
+}
+
+%icon-attachment {
+
+	content: "\f416";
+
+}
+
+%icon-audio {
+
+	content: "\f109";
+
+}
+
+%icon-bold {
+
+	content: "\f471";
+
+}
+
+%icon-book {
+
+	content: "\f444";
+
+}
+
+%icon-cart {
+
+	content: "\f447";
+
+}
+
+%icon-category {
+
+	content: "\f301";
+
+}
+
+%icon-chat {
+
+	content: "\f108";
+
+}
+
+%icon-checkmark {
+
+	content: "\f418";
+
+}
+
+%icon-close {
+
+	content: "\f405";
+
+}
+
+%icon-close-alt {
+
+	content: "\f406";
+
+}
+
+%icon-cloud {
+
+	content: "\f426";
+
+}
+
+%icon-cloud-download {
+
+	content: "\f440";
+
+}
+
+%icon-cloud-upload {
+
+	content: "\f441";
+
+}
+
+%icon-code {
+
+	content: "\f462";
+
+}
+
+%icon-codepen {
+
+	content: "\f216";
+
+}
+
+%icon-cog {
+
+	content: "\f445";
+
+}
+
+%icon-collapse {
+
+	content: "\f432";
+
+}
+
+%icon-comment {
+
+	content: "\f300";
+
+}
+
+%icon-day {
+
+	content: "\f305";
+
+}
+
+%icon-digg {
+
+	content: "\f221";
+
+}
+
+%icon-document {
+
+	content: "\f443";
+
+}
+
+%icon-dot {
+
+	content: "\f428";
+
+}
+
+%icon-downarrow {
+
+	content: "\f502";
+
+}
+
+%icon-draggable {
+
+	content: "\f436";
+
+}
+
+%icon-dribbble {
+
+	content: "\f201";
+
+}
+
+%icon-dropbox {
+
+	content: "\f225";
+
+}
+
+%icon-dropdown {
+
+	content: "\f433";
+
+}
+
+%icon-dropdown-left {
+
+	content: "\f434";
+
+}
+
+%icon-edit {
+
+	content: "\f411";
+
+}
+
+%icon-ellipsis {
+
+	content: "\f476";
+
+}
+
+%icon-expand {
+
+	content: "\f431";
+
+}
+
+%icon-external {
+
+	content: "\f442";
+
+}
+
+%icon-facebook {
+
+	content: "\f203";
+
+}
+
+%icon-facebook-alt {
+
+	content: "\f204";
+
+}
+
+%icon-fastforward {
+
+	content: "\f458";
+
+}
+
+%icon-feed {
+
+	content: "\f413";
+
+}
+
+%icon-flag {
+
+	content: "\f468";
+
+}
+
+%icon-flickr {
+
+	content: "\f211";
+
+}
+
+%icon-foursquare {
+
+	content: "\f226";
+
+}
+
+%icon-fullscreen {
+
+	content: "\f474";
+
+}
+
+%icon-gallery {
+
+	content: "\f103";
+
+}
+
+%icon-github {
+
+	content: "\f200";
+
+}
+
+%icon-googleplus {
+
+	content: "\f206";
+
+}
+
+%icon-googleplus-alt {
+
+	content: "\f218";
+
+}
+
+%icon-heart {
+
+	content: "\f461";
+
+}
+
+%icon-help {
+
+	content: "\f457";
+
+}
+
+%icon-hide {
+
+	content: "\f404";
+
+}
+
+%icon-hierarchy {
+
+	content: "\f505";
+
+}
+
+%icon-home {
+
+	content: "\f409";
+
+}
+
+%icon-image {
+
+	content: "\f102";
+
+}
+
+%icon-info {
+
+	content: "\f455";
+
+}
+
+%icon-instagram {
+
+	content: "\f215";
+
+}
+
+%icon-italic {
+
+	content: "\f472";
+
+}
+
+%icon-key {
+
+	content: "\f427";
+
+}
+
+%icon-leftarrow {
+
+	content: "\f503";
+
+}
+
+%icon-link {
+
+	content: "\f107";
+
+}
+
+%icon-linkedin {
+
+	content: "\f207";
+
+}
+
+%icon-linkedin-alt {
+
+	content: "\f208";
+
+}
+
+%icon-location {
+
+	content: "\f417";
+
+}
+
+%icon-lock {
+
+	content: "\f470";
+
+}
+
+%icon-mail {
+
+	content: "\f410";
+
+}
+
+%icon-maximize {
+
+	content: "\f422";
+
+}
+
+%icon-menu {
+
+	content: "\f419";
+
+}
+
+%icon-minimize {
+
+	content: "\f421";
+
+}
+
+%icon-month {
+
+	content: "\f307";
+
+}
+
+%icon-next {
+
+	content: "\f429";
+
+}
+
+%icon-notice {
+
+	content: "\f456";
+
+}
+
+%icon-paintbrush {
+
+	content: "\f506";
+
+}
+
+%icon-path {
+
+	content: "\f219";
+
+}
+
+%icon-pause {
+
+	content: "\f448";
+
+}
+
+%icon-phone {
+
+	content: "\f437";
+
+}
+
+%icon-picture {
+
+	content: "\f473";
+
+}
+
+%icon-pinned {
+
+	content: "\f308";
+
+}
+
+%icon-pinterest {
+
+	content: "\f209";
+
+}
+
+%icon-pinterest-alt {
+
+	content: "\f210";
+
+}
+
+%icon-play {
+
+	content: "\f452";
+
+}
+
+%icon-plugin {
+
+	content: "\f439";
+
+}
+
+%icon-pocket {
+
+	content: "\f224";
+
+}
+
+%icon-polldaddy {
+
+	content: "\f217";
+
+}
+
+%icon-portfolio {
+
+	content: "\f460";
+
+}
+
+%icon-previous {
+
+	content: "\f430";
+
+}
+
+%icon-print {
+
+	content: "\f469";
+
+}
+
+%icon-quote {
+
+	content: "\f106";
+
+}
+
+%icon-reddit {
+
+	content: "\f222";
+
+}
+
+%icon-refresh {
+
+	content: "\f420";
+
+}
+
+%icon-reply {
+
+	content: "\f412";
+
+}
+
+%icon-reply-alt {
+
+	content: "\f466";
+
+}
+
+%icon-reply-single {
+
+	content: "\f467";
+
+}
+
+%icon-rewind {
+
+	content: "\f459";
+
+}
+
+%icon-rightarrow {
+
+	content: "\f501";
+
+}
+
+%icon-search {
+
+	content: "\f400";
+
+}
+
+%icon-send-to-phone {
+
+	content: "\f438";
+
+}
+
+%icon-send-to-tablet {
+
+	content: "\f454";
+
+}
+
+%icon-share {
+
+	content: "\f415";
+
+}
+
+%icon-show {
+
+	content: "\f403";
+
+}
+
+%icon-sitemap {
+
+	content: "\f507";
+
+}
+
+%icon-skip-ahead {
+
+	content: "\f451";
+
+}
+
+%icon-skip-back {
+
+	content: "\f450";
+
+}
+
+%icon-skype {
+
+	content: "\f220";
+
+}
+
+%icon-spam {
+
+	content: "\f424";
+
+}
+
+%icon-standard {
+
+	content: "\f100";
+
+}
+
+%icon-star {
+
+	content: "\f408";
+
+}
+
+%icon-status {
+
+	content: "\f105";
+
+}
+
+%icon-stop {
+
+	content: "\f449";
+
+}
+
+%icon-stumbleupon {
+
+	content: "\f223";
+
+}
+
+%icon-subscribe {
+
+	content: "\f463";
+
+}
+
+%icon-subscribed {
+
+	content: "\f465";
+
+}
+
+%icon-summary {
+
+	content: "\f425";
+
+}
+
+%icon-tablet {
+
+	content: "\f453";
+
+}
+
+%icon-tag {
+
+	content: "\f302";
+
+}
+
+%icon-time {
+
+	content: "\f303";
+
+}
+
+%icon-top {
+
+	content: "\f435";
+
+}
+
+%icon-trash {
+
+	content: "\f407";
+
+}
+
+%icon-tumblr {
+
+	content: "\f214";
+
+}
+
+%icon-twitter {
+
+	content: "\f202";
+
+}
+
+%icon-unapprove {
+
+	content: "\f446";
+
+}
+
+%icon-unsubscribe {
+
+	content: "\f464";
+
+}
+
+%icon-unzoom {
+
+	content: "\f401";
+
+}
+
+%icon-uparrow {
+
+	content: "\f500";
+
+}
+
+%icon-user {
+
+	content: "\f304";
+
+}
+
+%icon-video {
+
+	content: "\f104";
+
+}
+
+%icon-vimeo {
+
+	content: "\f212";
+
+}
+
+%icon-warning {
+
+	content: "\f414";
+
+}
+
+%icon-website {
+
+	content: "\f475";
+
+}
+
+%icon-week {
+
+	content: "\f306";
+
+}
+
+%icon-wordpress {
+
+	content: "\f205";
+
+}
+
+%icon-xpost {
+
+	content: "\f504";
+
+}
+
+%icon-youtube {
+
+	content: "\f213";
+
+}
+
+%icon-zoom {
+
+	content: "\f402";
+
+}
