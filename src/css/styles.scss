@@ -1,0 +1,20 @@
+@import "gouda";
+
+body {
+
+	color: #ccc;
+
+}
+
+i {
+
+	@extend %icon;
+
+}
+
+.icon-wordpress {
+
+	@extend %icon-wordpress;
+	font-size: 50px;
+
+}
