@@ -21,10 +21,7 @@ module.exports = function(grunt) {
                 files: ['<%= config.app %>/js/{,*/}*.js'],
                 tasks: ['jshint'],
                 options: {
-                    livereload: {
-                        key: grunt.file.read(path.join('node_modules/grunt-contrib-connect/tasks', 'certs', 'server.key')).toString(),
-                        cert: grunt.file.read(path.join('node_modules/grunt-contrib-connect/tasks', 'certs', 'server.crt')).toString(),
-                    }
+                    livereload: true
                 }
             },
             gruntfile: {
@@ -34,29 +31,19 @@ module.exports = function(grunt) {
                 files: ['<%= config.app %>/css/{,*/}*.css'],
                 tasks: ['newer:copy:styles', 'autoprefixer'],
                 options: {
-                    livereload: {
-                        key: grunt.file.read(path.join('node_modules/grunt-contrib-connect/tasks', 'certs', 'server.key')).toString(),
-                        cert: grunt.file.read(path.join('node_modules/grunt-contrib-connect/tasks', 'certs', 'server.crt')).toString(),
-                    }
+                    livereload: true
                 }
             },
             handlebars: {
-                files: ['<%= config.app %>/js/**/templates/*.hbs'],
-                tasks: 'handlebars',
+                files: ['<%= config.app %>/templates/**/*.hbs'],
+                tasks: ['handlebars'],
                 options: {
-                    livereload: {
-                        key: grunt.file.read(path.join('node_modules/grunt-contrib-connect/tasks', 'certs', 'server.key')).toString(),
-                        cert: grunt.file.read(path.join('node_modules/grunt-contrib-connect/tasks', 'certs', 'server.crt')).toString(),
-                    }
+                    livereload: true
                 }
             },
             livereload: {
                 options: {
-                    // livereload: '<%= connect.options.livereload %>',
-                    livereload: {
-                        key: grunt.file.read(path.join('node_modules/grunt-contrib-connect/tasks', 'certs', 'server.key')).toString(),
-                        cert: grunt.file.read(path.join('node_modules/grunt-contrib-connect/tasks', 'certs', 'server.crt')).toString(),
-                    }
+                    livereload: '<%= connect.options.livereload %>'
                 },
                 files: ['<%= config.app %>/{,*/}*.html', '.tmp/css/{,*/}*.css', '<%= config.app %>/images/{,*/}*']
             }
@@ -64,8 +51,7 @@ module.exports = function(grunt) {
         handlebars: {
             compile: {
                 files: {
-                    "<%= config.app %>/js/mobile/templates/compiled-templates.js": ["<%= config.app %>/js/common/templates/**/*.hbs","<%= config.app %>/js/mobile/templates/**/*.hbs"],
-                    "<%= config.app %>/js/desktop/templates/compiled-templates.js": ["<%= config.app %>/js/common/templates/**/*.hbs","<%= config.app %>/js/desktop/templates/**/*.hbs"],
+                    "<%= config.app %>/templates/compiled.js": ["<%= config.app %>/templates/**/*.hbs"]
                 },
                 options: {
                     namespace: 'Handlebars.templates',
@@ -218,13 +204,7 @@ module.exports = function(grunt) {
             return grunt.task.run(['build', 'connect:dist:keepalive']);
         }
         grunt.task.run(['clean:server', 'concurrent:server', 'autoprefixer', 'connect:livereload', 'watch']);
-        grunt.option('force', true);
     });
-    grunt.registerTask('test', function(target) {
-        if (target !== 'watch') {
-            grunt.task.run(['clean:server', 'concurrent:test', 'autoprefixer']);
-        }
-        grunt.task.run(['connect:test', 'jasmine']);
-    });
+
     grunt.registerTask('build', ['clean:dist', 'useminPrepare', 'concurrent:dist', 'autoprefixer', 'concat', 'cssmin', 'uglify', 'copy:dist', 'usemin', 'htmlmin']);
 };
