@@ -1,4 +1,4 @@
-/* line 3, C:/Users/wyatt/Documents/GitHub/gouda/dev/css/gouda/_helpers.scss */
+/* line 3, gouda/_helpers.scss */
 i {
   vertical-align: top;
   text-align: center;
@@ -14,14 +14,14 @@ i {
   speak: none;
 }
 
-/* line 20, C:/Users/wyatt/Documents/GitHub/gouda/dev/css/gouda/_helpers.scss */
-i:before {
+/* line 20, gouda/_helpers.scss */
+.icon-wordpress:before {
   font-family: "Genericons";
 }
 
-/* line 379, C:/Users/wyatt/Documents/GitHub/gouda/dev/css/gouda/_icons.scss */
-i:before {
-  content: "\f203";
+/* line 1402, gouda/_icons.scss */
+.icon-wordpress:before {
+  content: "\f205";
 }
 
 @font-face {
@@ -44,12 +44,12 @@ i:before {
     src: url("../fonts/Genericons.svg#Genericons") format("svg");
 }
 }
-/* line 3, C:/Users/wyatt/Documents/GitHub/gouda/dev/css/styles.scss */
+/* line 3, styles.scss */
 body {
-  color: #ccc;
+  color: #222;
 }
 
-/* line 9, C:/Users/wyatt/Documents/GitHub/gouda/dev/css/styles.scss */
-i {
+/* line 15, styles.scss */
+.icon-wordpress {
   font-size: 50px;
 }

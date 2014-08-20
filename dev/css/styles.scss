@@ -2,14 +2,19 @@
 
 body {
 
-	color: #ccc;
+	color: #222;
 
 }
 
 i {
 
 	@extend %icon;
-	@extend %icon-facebook;
+
+}
+
+.icon-wordpress {
+
+	@extend %icon-wordpress;
 	font-size: 50px;
 
 }
