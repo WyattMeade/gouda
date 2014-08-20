@@ -6,14 +6,9 @@ body {
 
 }
 
-i {
-
-	@extend %icon;
-
-}
-
 .icon-wordpress {
 
+	@extend %icon;
 	@extend %icon-wordpress;
 	font-size: 50px;
 

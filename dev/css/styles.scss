@@ -9,12 +9,7 @@ body {
 i {
 
 	@extend %icon;
-
-}
-
-.icon-wordpress {
-
-	@extend %icon-wordpress;
+	@extend %icon-facebook;
 	font-size: 50px;
 
 }
