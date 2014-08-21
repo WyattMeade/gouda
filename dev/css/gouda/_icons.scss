@@ -22,72 +22,6 @@
 
 }
 
-%icon-attachment {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f416";
-
-	}
-
-}
-
-%icon-audio {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f109";
-
-	}
-
-}
-
-%icon-bold {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f471";
-
-	}
-
-}
-
-%icon-book {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f444";
-
-	}
-
-}
-
-%icon-cart {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f447";
-
-	}
-
-}
-
-%icon-category {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f301";
-
-	}
-
-}
-
 %icon-chat {
 
 	&:before{
@@ -99,67 +33,12 @@
 
 }
 
-%icon-checkmark {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f418";
-
-	}
-
-}
-
-%icon-close {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f405";
-
-	}
-
-}
-
 %icon-close-alt {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f406";
-
-	}
-
-}
-
-%icon-cloud {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f426";
-
-	}
-
-}
-
-%icon-cloud-download {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f440";
-
-	}
-
-}
-
-%icon-cloud-upload {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f441";
 
 	}
 
@@ -193,28 +72,6 @@
 		
 		@extend %genericons;
 		content: "\f445";
-
-	}
-
-}
-
-%icon-collapse {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f432";
-
-	}
-
-}
-
-%icon-comment {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f300";
 
 	}
 
@@ -275,17 +132,6 @@
 
 }
 
-%icon-draggable {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f436";
-
-	}
-
-}
-
 %icon-dribbble {
 
 	&:before{
@@ -330,45 +176,12 @@
 
 }
 
-%icon-edit {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f411";
-
-	}
-
-}
-
 %icon-ellipsis {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f476";
-
-	}
-
-}
-
-%icon-expand {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f431";
-
-	}
-
-}
-
-%icon-external {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f442";
 
 	}
 
@@ -396,34 +209,12 @@
 
 }
 
-%icon-fastforward {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f458";
-
-	}
-
-}
-
 %icon-feed {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f413";
-
-	}
-
-}
-
-%icon-flag {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f468";
 
 	}
 
@@ -446,17 +237,6 @@
 		
 		@extend %genericons;
 		content: "\f226";
-
-	}
-
-}
-
-%icon-fullscreen {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f474";
 
 	}
 
@@ -506,39 +286,6 @@
 
 }
 
-%icon-heart {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f461";
-
-	}
-
-}
-
-%icon-help {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f457";
-
-	}
-
-}
-
-%icon-hide {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f404";
-
-	}
-
-}
-
 %icon-hierarchy {
 
 	&:before{
@@ -550,56 +297,12 @@
 
 }
 
-%icon-home {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f409";
-
-	}
-
-}
-
-%icon-image {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f102";
-
-	}
-
-}
-
-%icon-info {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f455";
-
-	}
-
-}
-
 %icon-instagram {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f215";
-
-	}
-
-}
-
-%icon-italic {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f472";
 
 	}
 
@@ -627,17 +330,6 @@
 
 }
 
-%icon-link {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f107";
-
-	}
-
-}
-
 %icon-linkedin {
 
 	&:before{
@@ -655,39 +347,6 @@
 		
 		@extend %genericons;
 		content: "\f208";
-
-	}
-
-}
-
-%icon-location {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f417";
-
-	}
-
-}
-
-%icon-lock {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f470";
-
-	}
-
-}
-
-%icon-mail {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f410";
 
 	}
 
@@ -715,50 +374,6 @@
 
 }
 
-%icon-minimize {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f421";
-
-	}
-
-}
-
-%icon-month {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f307";
-
-	}
-
-}
-
-%icon-next {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f429";
-
-	}
-
-}
-
-%icon-notice {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f456";
-
-	}
-
-}
-
 %icon-paintbrush {
 
 	&:before{
@@ -781,50 +396,6 @@
 
 }
 
-%icon-pause {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f448";
-
-	}
-
-}
-
-%icon-phone {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f437";
-
-	}
-
-}
-
-%icon-picture {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f473";
-
-	}
-
-}
-
-%icon-pinned {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f308";
-
-	}
-
-}
-
 %icon-pinterest {
 
 	&:before{
@@ -842,17 +413,6 @@
 		
 		@extend %genericons;
 		content: "\f210";
-
-	}
-
-}
-
-%icon-play {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f452";
 
 	}
 
@@ -902,28 +462,6 @@
 
 }
 
-%icon-previous {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f430";
-
-	}
-
-}
-
-%icon-print {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f469";
-
-	}
-
-}
-
 %icon-quote {
 
 	&:before{
@@ -941,17 +479,6 @@
 		
 		@extend %genericons;
 		content: "\f222";
-
-	}
-
-}
-
-%icon-refresh {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f420";
 
 	}
 
@@ -990,34 +517,12 @@
 
 }
 
-%icon-rewind {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f459";
-
-	}
-
-}
-
 %icon-rightarrow {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f501";
-
-	}
-
-}
-
-%icon-search {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f400";
 
 	}
 
@@ -1045,56 +550,12 @@
 
 }
 
-%icon-share {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f415";
-
-	}
-
-}
-
-%icon-show {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f403";
-
-	}
-
-}
-
 %icon-sitemap {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f507";
-
-	}
-
-}
-
-%icon-skip-ahead {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f451";
-
-	}
-
-}
-
-%icon-skip-back {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f450";
 
 	}
 
@@ -1133,34 +594,12 @@
 
 }
 
-%icon-star {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f408";
-
-	}
-
-}
-
 %icon-status {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f105";
-
-	}
-
-}
-
-%icon-stop {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f449";
 
 	}
 
@@ -1199,17 +638,6 @@
 
 }
 
-%icon-summary {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f425";
-
-	}
-
-}
-
 %icon-tablet {
 
 	&:before{
@@ -1221,45 +649,12 @@
 
 }
 
-%icon-tag {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f302";
-
-	}
-
-}
-
-%icon-time {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f303";
-
-	}
-
-}
-
 %icon-top {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f435";
-
-	}
-
-}
-
-%icon-trash {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f407";
 
 	}
 
@@ -1287,17 +682,6 @@
 
 }
 
-%icon-unapprove {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f446";
-
-	}
-
-}
-
 %icon-unsubscribe {
 
 	&:before{
@@ -1309,34 +693,12 @@
 
 }
 
-%icon-unzoom {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f401";
-
-	}
-
-}
-
 %icon-uparrow {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f500";
-
-	}
-
-}
-
-%icon-user {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f304";
 
 	}
 
@@ -1359,28 +721,6 @@
 		
 		@extend %genericons;
 		content: "\f212";
-
-	}
-
-}
-
-%icon-warning {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f414";
-
-	}
-
-}
-
-%icon-website {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f475";
 
 	}
 
@@ -1425,17 +765,6 @@
 		
 		@extend %genericons;
 		content: "\f213";
-
-	}
-
-}
-
-%icon-zoom {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f402";
 
 	}
 
@@ -2668,17 +1997,6 @@
       
       @extend %glyphicons;
       content: "\e110";
-
-    }
-
-}
-
-%icon-comment {
-
-    &:before {
-      
-      @extend %glyphicons;
-      content: "\e111";
 
     }
 
