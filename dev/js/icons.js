@@ -33,21 +33,43 @@ var iconData = {
 
 		{"icon":"barcode"},
 
+		{"icon":"bell"},
+
 		{"icon":"book"},
 
 		{"icon":"bookmark"},
 
 		{"icon":"bold"},
 
+		{"icon":"briefcase"},
+
+		{"icon":"bullhorn"},
+
+		{"icon":"calendar"},
+
 		{"icon":"camera"},
+
+		{"icon":"certificate"},
 
 		{"icon":"chat"},
 
 		{"icon":"check"},
 
+		{"icon":"chevron-down"},
+
 		{"icon":"chevron-left"},
 
 		{"icon":"chevron-right"},
+
+		{"icon":"chevron-up"},
+
+		{"icon":"circle-arrow-down"},
+
+		{"icon":"circle-arrow-left"},
+
+		{"icon":"circle-arrow-right"},
+
+		{"icon":"circle-arrow-up"},
 
 		{"icon":"close-alt"},
 
@@ -64,6 +86,8 @@ var iconData = {
 		{"icon":"cog"},
 
 		{"icon":"copyright-mark"},
+
+		{"icon":"dashboard"},
 
 		{"icon":"day"},
 
@@ -119,17 +143,25 @@ var iconData = {
 
 		{"icon":"film"},
 
+		{"icon":"filter"},
+
 		{"icon":"fire"},
 
 		{"icon":"flag"},
 
 		{"icon":"flickr"},
 
+		{"icon":"folder-close"},
+
+		{"icon":"folder-open"},
+
 		{"icon":"font"},
 
 		{"icon":"forward"},
 
 		{"icon":"foursquare"},
+
+		{"icon":"fullscreen"},
 
 		{"icon":"gallery"},
 
@@ -139,9 +171,21 @@ var iconData = {
 
 		{"icon":"glass"},
 
+		{"icon":"globe"},
+
 		{"icon":"googleplus"},
 
 		{"icon":"googleplus-alt"},
+
+		{"icon":"hand-down"},
+
+		{"icon":"hand-left"},
+
+		{"icon":"hand-right"},
+
+		{"icon":"hand-up"},
+
+		{"icon":"hdd"},
 
 		{"icon":"headphones"},
 
@@ -179,6 +223,8 @@ var iconData = {
 
 		{"icon":"lock"},
 
+		{"icon":"magnet"},
+
 		{"icon":"map-marker"},
 
 		{"icon":"maximize"},
@@ -215,6 +261,8 @@ var iconData = {
 
 		{"icon":"pinterest-alt"},
 
+		{"icon":"plane"},
+
 		{"icon":"play"},
 
 		{"icon":"play-circle"},
@@ -239,6 +287,8 @@ var iconData = {
 
 		{"icon":"quote"},
 
+		{"icon":"random"},
+
 		{"icon":"reddit"},
 
 		{"icon":"refresh"},
@@ -259,9 +309,15 @@ var iconData = {
 
 		{"icon":"reply-single"},
 
+		{"icon":"resize-vertical"},
+
+		{"icon":"resize-horizontal"},
+
 		{"icon":"resize-full"},
 
 		{"icon":"resize-small"},
+
+		{"icon":"retweet"},
 
 		{"icon":"rightarrow"},
 
@@ -278,6 +334,8 @@ var iconData = {
 		{"icon":"share"},
 
 		{"icon":"share-alt"},
+
+		{"icon":"shopping-cart"},
 
 		{"icon":"signal"},
 
@@ -323,6 +381,10 @@ var iconData = {
 
 		{"icon":"th-list"},
 
+		{"icon":"thumbs-down"},
+
+		{"icon":"thumbs-up"},
+
 		{"icon":"time"},
 
 		{"icon":"tint"},
@@ -353,9 +415,13 @@ var iconData = {
 
 		{"icon":"volume-up"},
 
+		{"icon":"warning-sign"},
+
 		{"icon":"week"},
 
 		{"icon":"wordpress"},
+
+		{"icon":"wrench"},
 
 		{"icon":"xpost"},
 
@@ -365,73 +431,7 @@ var iconData = {
 
 		{"icon":"zoom-out"},
 
-		{"icon":"warning-sign"},
-
-		{"icon":"plane"},
-
-		{"icon":"calendar"},
-
-		{"icon":"random"},
-
-		{"icon":"magnet"},
-
-		{"icon":"chevron-up"},
-
-		{"icon":"chevron-down"},
-
-		{"icon":"retweet"},
-
-		{"icon":"shopping-cart"},
-
-		{"icon":"folder-close"},
-
-		{"icon":"folder-open"},
-
-		{"icon":"resize-vertical"},
-
-		{"icon":"resize-horizontal"},
-
-		{"icon":"hdd"},
-
-		{"icon":"bullhorn"},
-
-		{"icon":"bell"},
-
-		{"icon":"certificate"},
-
-		{"icon":"thumbs-up"},
-
-		{"icon":"thumbs-down"},
-
-		{"icon":"hand-right"},
-
-		{"icon":"hand-left"},
-
-		{"icon":"hand-up"},
-
-		{"icon":"hand-down"},
-
-		{"icon":"circle-arrow-right"},
-
-		{"icon":"circle-arrow-left"},
-
-		{"icon":"circle-arrow-up"},
-
-		{"icon":"circle-arrow-down"},
-
-		{"icon":"globe"},
-
-		{"icon":"wrench"},
-
 		{"icon":"tasks"},
-
-		{"icon":"filter"},
-
-		{"icon":"briefcase"},
-
-		{"icon":"fullscreen"},
-
-		{"icon":"dashboard"},
 
 		{"icon":"paperclip"},
 
