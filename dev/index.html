@@ -11,17 +11,40 @@
 <body>
 	
 <!-- Start Your HTML -->
-<section></section>
+<header>
+	
+	<h1>Gouda</h1>
+	<h3>Font-Icons for people who love Font-Icons</h3>
+
+</header>
+
+<section class="intro">
+	
+	<article>
+		
+		<p>269 Font Icons that should suit your needs. Combination of Fonts from Genericons and Glyphicons. Built with SCSS so you can quickly drop into your project and go.</p>
+
+		<div class="icons">
+			
+			<div class="guide"></div>
+			<ul></ul>
+
+		</div>
+
+	</article>
+
+</section>
 
 <script id="icon-template" type="text/x-handlebars-template">
 	
 	{{#each icons}}
-	<div>
-		<i class="icon-{{icon}}"></i>
-		<p>{{icon}}</p>
-	</div>
+	<li>
+		<a href="#" data-index="{{@index}}" data-icon="{{icon}}">
+			<i class="icon-{{icon}}"></i>
+			<p>{{icon}}</p>
+		</a>
+	</li>	
 	{{/each}}
-
 
 </script>
 

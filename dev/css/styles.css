@@ -1395,7 +1395,7 @@ body {
 }
 
 /* line 9, styles.scss */
-div {
+li {
   display: inline-block;
   width: 150px;
   height: 100px;

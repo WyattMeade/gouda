@@ -7,15 +7,23 @@ var iconData = {
 
 		{"icon":"aside"},
 
+		{"icon":"asterisk"},
+
 		{"icon":"chat"},
 
 		{"icon":"close-alt"},
+
+		{"icon":"cloud-download"},
+
+		{"icon":"cloud-upload"},
 
 		{"icon":"code"},
 
 		{"icon":"codepen"},
 
 		{"icon":"cog"},
+
+		{"icon":"copyright-mark"},
 
 		{"icon":"day"},
 
@@ -36,6 +44,8 @@ var iconData = {
 		{"icon":"dropdown-left"},
 
 		{"icon":"ellipsis"},
+
+		{"icon":"euro"},
 
 		{"icon":"facebook"},
 
@@ -71,6 +81,8 @@ var iconData = {
 
 		{"icon":"menu"},
 
+		{"icon":"minus"},
+
 		{"icon":"paintbrush"},
 
 		{"icon":"path"},
@@ -81,6 +93,8 @@ var iconData = {
 
 		{"icon":"plugin"},
 
+		{"icon":"plus"},
+
 		{"icon":"pocket"},
 
 		{"icon":"polldaddy"},
@@ -90,6 +104,8 @@ var iconData = {
 		{"icon":"quote"},
 
 		{"icon":"reddit"},
+
+		{"icon":"registration-mark"},
 
 		{"icon":"reply"},
 
@@ -142,14 +158,6 @@ var iconData = {
 		{"icon":"xpost"},
 
 		{"icon":"youtube"},
-
-		{"icon":"asterisk"},
-
-		{"icon":"plus"},
-
-		{"icon":"euro"},
-
-		{"icon":"minus"},
 
 		{"icon":"cloud"},
 
@@ -528,14 +536,6 @@ var iconData = {
 		{"icon":"sound-6-1"},
 
 		{"icon":"sound-7-1"},
-
-		{"icon":"copyright-mark"},
-
-		{"icon":"registration-mark"},
-
-		{"icon":"cloud-download"},
-
-		{"icon":"cloud-upload"},
 
 		{"icon":"tree-conifer"},
 
