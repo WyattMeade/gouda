@@ -40,21 +40,70 @@ http://getbootstrap.com/components/#glyphicons
 
 The benefit of Gouda is that it allows you to extend the font icons and use them however you'd like. You should be able to use this on any tag with (or without) an identifier such as a class, ID, data attribute, and so on.
 
-####Icon On a Tag
+####Icon Using Tag Only
 
 Example of extending icon on an `i` tag.
 
 #####HTML
 
 ```
+<i></i>
+```
 
+#####CSS
+
+```
 i {
 	
 	@extend %icon;
 	@extend %icon-cloud-upload;
 
 }
-
 ```
 
-####Icon Using a Class
+####Icon Using an Identifier
+
+Examples of using an icon with a class.
+
+#####HTML
+
+```
+<i class="icon"></i>
+```
+
+#####CSS
+
+```
+.icon {
+	
+	@extend %icon;
+	@extend %icon-cloud-upload;
+
+}
+```
+
+####Icon Using Tag and an Identifier
+
+Examples of extending an icon on a tag and using a class to set the icon.
+
+#####HTML
+
+```
+<i class="icon"></i>
+```
+
+#####CSS
+
+```
+i {
+	
+	@extend %icon;
+
+}
+
+.icon {
+	
+	@extend %icon-cloud-upload;
+
+}
+```
