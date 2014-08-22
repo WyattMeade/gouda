@@ -85,7 +85,17 @@ var iconData = {
 
 		{"icon":"cog"},
 
+		{"icon":"collapse-down"},
+
+		{"icon":"collapse-up"},
+
+		{"icon":"compressed"},
+
 		{"icon":"copyright-mark"},
+
+		{"icon":"credit-card"},
+
+		{"icon":"cutlery"},
 
 		{"icon":"dashboard"},
 
@@ -111,6 +121,8 @@ var iconData = {
 
 		{"icon":"dropdown-left"},
 
+		{"icon":"earphone"},
+
 		{"icon":"edit"},
 
 		{"icon":"eject"},
@@ -122,6 +134,10 @@ var iconData = {
 		{"icon":"euro"},
 
 		{"icon":"exclamation-sign"},
+
+		{"icon":"expand"},
+
+		{"icon":"export"},
 
 		{"icon":"eye-close"},
 
@@ -149,7 +165,19 @@ var iconData = {
 
 		{"icon":"flag"},
 
+		{"icon":"flash"},
+
 		{"icon":"flickr"},
+
+		{"icon":"floppy-disk"},
+
+		{"icon":"floppy-open"},
+
+		{"icon":"floppy-remove"},
+
+		{"icon":"floppy-save"},
+
+		{"icon":"floppy-saved"},
 
 		{"icon":"folder-close"},
 
@@ -164,6 +192,8 @@ var iconData = {
 		{"icon":"fullscreen"},
 
 		{"icon":"gallery"},
+
+		{"icon":"gbp"},
 
 		{"icon":"gift"},
 
@@ -185,15 +215,23 @@ var iconData = {
 
 		{"icon":"hand-up"},
 
+		{"icon":"hd-video"},
+
 		{"icon":"hdd"},
+
+		{"icon":"header"},
 
 		{"icon":"headphones"},
 
 		{"icon":"heart"},
 
+		{"icon":"heart-empty"},
+
 		{"icon":"hierarchy"},
 
 		{"icon":"home"},
+
+		{"icon":"import"},
 
 		{"icon":"inbox"},
 
@@ -213,6 +251,8 @@ var iconData = {
 
 		{"icon":"leftarrow"},
 
+		{"icon":"link"},
+
 		{"icon":"linkedin"},
 
 		{"icon":"linkedin-alt"},
@@ -222,6 +262,10 @@ var iconData = {
 		{"icon":"list-alt"},
 
 		{"icon":"lock"},
+
+		{"icon":"log-in"},
+
+		{"icon":"log-out"},
 
 		{"icon":"magnet"},
 
@@ -239,6 +283,8 @@ var iconData = {
 
 		{"icon":"music"},
 
+		{"icon":"new-window"},
+
 		{"icon":"off"},
 
 		{"icon":"ok"},
@@ -247,13 +293,21 @@ var iconData = {
 
 		{"icon":"ok-sign"},
 
+		{"icon":"open"},
+
 		{"icon":"paintbrush"},
+
+		{"icon":"paperclip"},
 
 		{"icon":"path"},
 
 		{"icon":"pause"},
 
 		{"icon":"pencil"},
+
+		{"icon":"phone"},
+
+		{"icon":"phone-alt"},
 
 		{"icon":"picture"},
 
@@ -281,6 +335,8 @@ var iconData = {
 
 		{"icon":"print"},
 
+		{"icon":"pushpin"},
+
 		{"icon":"qrcode"},
 
 		{"icon":"question-sign"},
@@ -288,6 +344,8 @@ var iconData = {
 		{"icon":"quote"},
 
 		{"icon":"random"},
+
+		{"icon":"record"},
 
 		{"icon":"reddit"},
 
@@ -323,9 +381,17 @@ var iconData = {
 
 		{"icon":"road"},
 
+		{"icon":"save"},
+
+		{"icon":"saved"},
+
 		{"icon":"screenshot"},
 
+		{"icon":"sd-video"},
+
 		{"icon":"search"},
+
+		{"icon":"send"},
 
 		{"icon":"send-to-phone"},
 
@@ -343,15 +409,41 @@ var iconData = {
 
 		{"icon":"skype"},
 
+		{"icon":"sort"},
+
+		{"icon":"sort-by-alphabet"},
+
+		{"icon":"sort-by-alphabet-alt"},
+
+		{"icon":"sort-by-attributes"},
+
+		{"icon":"sort-by-attributes-alt"},
+
+		{"icon":"sort-by-order"},
+
+		{"icon":"sort-by-order-alt"},
+
+		{"icon":"sound-stereo"},
+
+		{"icon":"sound-dolby"},
+
+		{"icon":"sound-5-1"},
+
+		{"icon":"sound-6-1"},
+
+		{"icon":"sound-7-1"},
+
 		{"icon":"spam"},
 
 		{"icon":"standard"},
 
-		{"icon":"status"},
-
 		{"icon":"star"},
 
 		{"icon":"star-empty"},
+
+		{"icon":"stats"},
+
+		{"icon":"status"},
 
 		{"icon":"step-backward"},
 
@@ -365,11 +457,15 @@ var iconData = {
 
 		{"icon":"subscribed"},
 
+		{"icon":"subtitles"},
+
 		{"icon":"tablet"},
 
 		{"icon":"tag"},
 
 		{"icon":"tags"},
+
+		{"icon":"tasks"},
 
 		{"icon":"text-height"},
 
@@ -391,17 +487,29 @@ var iconData = {
 
 		{"icon":"top"},
 
+		{"icon":"tower"},
+
+		{"icon":"transfer"},
+
 		{"icon":"trash"},
+
+		{"icon":"tree-conifer"},
+
+		{"icon":"tree-deciduous"},
 
 		{"icon":"tumblr"},
 
 		{"icon":"twitter"},
+
+		{"icon":"unchecked"},
 
 		{"icon":"unsubscribe"},
 
 		{"icon":"uparrow"},
 
 		{"icon":"upload"},
+
+		{"icon":"usd"},
 
 		{"icon":"user"},
 
@@ -429,115 +537,7 @@ var iconData = {
 
 		{"icon":"zoom-in"},
 
-		{"icon":"zoom-out"},
-
-		{"icon":"tasks"},
-
-		{"icon":"paperclip"},
-
-		{"icon":"heart-empty"},
-
-		{"icon":"link"},
-
-		{"icon":"phone"},
-
-		{"icon":"pushpin"},
-
-		{"icon":"usd"},
-
-		{"icon":"gbp"},
-
-		{"icon":"sort"},
-
-		{"icon":"sort-by-alphabet"},
-
-		{"icon":"sort-by-alphabet-alt"},
-
-		{"icon":"sort-by-order"},
-
-		{"icon":"sort-by-order-alt"},
-
-		{"icon":"sort-by-attributes"},
-
-		{"icon":"sort-by-attributes-alt"},
-
-		{"icon":"unchecked"},
-
-		{"icon":"expand"},
-
-		{"icon":"collapse-down"},
-
-		{"icon":"collapse-up"},
-
-		{"icon":"log-in"},
-
-		{"icon":"flash"},
-
-		{"icon":"log-out"},
-
-		{"icon":"new-window"},
-
-		{"icon":"record"},
-
-		{"icon":"save"},
-
-		{"icon":"open"},
-
-		{"icon":"saved"},
-
-		{"icon":"import"},
-
-		{"icon":"export"},
-
-		{"icon":"send"},
-
-		{"icon":"floppy-disk"},
-
-		{"icon":"floppy-saved"},
-
-		{"icon":"floppy-remove"},
-
-		{"icon":"floppy-save"},
-
-		{"icon":"floppy-open"},
-
-		{"icon":"credit-card"},
-
-		{"icon":"transfer"},
-
-		{"icon":"cutlery"},
-
-		{"icon":"header"},
-
-		{"icon":"compressed"},
-
-		{"icon":"earphone"},
-
-		{"icon":"phone-alt"},
-
-		{"icon":"tower"},
-
-		{"icon":"stats"},
-
-		{"icon":"sd-video"},
-
-		{"icon":"hd-video"},
-
-		{"icon":"subtitles"},
-
-		{"icon":"sound-stereo"},
-
-		{"icon":"sound-dolby"},
-
-		{"icon":"sound-5-1"},
-
-		{"icon":"sound-6-1"},
-
-		{"icon":"sound-7-1"},
-
-		{"icon":"tree-conifer"},
-
-		{"icon":"tree-deciduous"}
+		{"icon":"zoom-out"}
 
 	]
 

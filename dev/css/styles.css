@@ -1399,4 +1399,11 @@ li {
   display: inline-block;
   width: 150px;
   height: 100px;
+  text-align: center;
+  font-size: 15px;
+}
+/* line 17, styles.scss */
+li a {
+  text-decoration: none;
+  color: #444;
 }
