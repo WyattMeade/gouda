@@ -11,13 +11,25 @@
 <body>
 	
 <!-- Start Your HTML -->
-<div>
-	<i class="icon-wordpress"></i>
-</div>
+<section></section>
+
+<script id="icon-template" type="text/x-handlebars-template">
+	
+	{{#each icons}}
+	<div>
+		<i class="icon-{{icon}}"></i>
+		<p>{{icon}}</p>
+	</div>
+	{{/each}}
+
+
+</script>
 
 <!-- build:js js/gouda.js -->
 	<script src="js/jquery.js"></script>
+	<script src="js/handlebars.min.js"></script>
 	<script src="js/icons.js"></script>
+	<script src="js/scripts.js"></script>
 <!-- endbuild -->
 </body>
 </html>

@@ -6,15 +6,1632 @@ body {
 
 }
 
+div {
+
+	display: inline-block;
+	width: 150px;
+	height: 100px;
+
+}
+
 i {
 
 	@extend %icon;
 
 }
 
+// ---------- Gouda Icons
+
+.icon-404 {
+
+	@extend %icon-404;
+
+}
+
+.icon-aside {
+
+	@extend %icon-aside;
+
+}
+
+.icon-chat {
+
+	@extend %icon-chat;
+
+}
+
+.icon-close-alt {
+
+	@extend %icon-close-alt;
+
+}
+
+.icon-code {
+
+	@extend %icon-code;
+
+}
+
+.icon-codepen {
+
+	@extend %icon-codepen;
+
+}
+
+.icon-cog {
+
+	@extend %icon-cog;
+
+}
+
+.icon-day {
+
+	@extend %icon-day;
+
+}
+
+.icon-digg {
+
+	@extend %icon-digg;
+
+}
+
+.icon-document {
+
+	@extend %icon-document;
+
+}
+
+.icon-dot {
+
+	@extend %icon-dot;
+
+}
+
+.icon-downarrow {
+
+	@extend %icon-downarrow;
+
+}
+
+.icon-dribbble {
+
+	@extend %icon-dribbble;
+
+}
+
+.icon-dropbox {
+
+	@extend %icon-dropbox;
+
+}
+
+.icon-dropdown {
+
+	@extend %icon-dropdown;
+
+}
+
+.icon-dropdown-left {
+
+	@extend %icon-dropdown-left;
+
+}
+
+.icon-ellipsis {
+
+	@extend %icon-ellipsis;
+
+}
+
+.icon-facebook {
+
+	@extend %icon-facebook;
+
+}
+
+.icon-facebook-alt {
+
+	@extend %icon-facebook-alt;
+
+}
+
+.icon-feed {
+
+	@extend %icon-feed;
+
+}
+
+.icon-flickr {
+
+	@extend %icon-flickr;
+
+}
+
+.icon-foursquare {
+
+	@extend %icon-foursquare;
+
+}
+
+.icon-gallery {
+
+	@extend %icon-gallery;
+
+}
+
+.icon-github {
+
+	@extend %icon-github;
+
+}
+
+.icon-googleplus {
+
+	@extend %icon-googleplus;
+
+}
+
+.icon-googleplus-alt {
+
+	@extend %icon-googleplus-alt;
+
+}
+
+.icon-hierarchy {
+
+	@extend %icon-hierarchy;
+
+}
+
+.icon-instagram {
+
+	@extend %icon-instagram;
+
+}
+
+.icon-key {
+
+	@extend %icon-key;
+
+}
+
+.icon-leftarrow {
+
+	@extend %icon-leftarrow;
+
+}
+
+.icon-linkedin {
+
+	@extend %icon-linkedin;
+
+}
+
+.icon-linkedin-alt {
+
+	@extend %icon-linkedin-alt;
+
+}
+
+.icon-maximize {
+
+	@extend %icon-maximize;
+
+}
+
+.icon-menu {
+
+	@extend %icon-menu;
+
+}
+
+.icon-paintbrush {
+
+	@extend %icon-paintbrush;
+
+}
+
+.icon-path {
+
+	@extend %icon-path;
+
+}
+
+.icon-pinterest {
+
+	@extend %icon-pinterest;
+
+}
+
+.icon-pinterest-alt {
+
+	@extend %icon-pinterest-alt;
+
+}
+
+.icon-plugin {
+
+	@extend %icon-plugin;
+
+}
+
+.icon-pocket {
+
+	@extend %icon-pocket;
+
+}
+
+.icon-polldaddy {
+
+	@extend %icon-polldaddy;
+
+}
+
+.icon-portfolio {
+
+	@extend %icon-portfolio;
+
+}
+
+.icon-quote {
+
+	@extend %icon-quote;
+
+}
+
+.icon-reddit {
+
+	@extend %icon-reddit;
+
+}
+
+.icon-reply {
+
+	@extend %icon-reply;
+
+}
+
+.icon-reply-alt {
+
+	@extend %icon-reply-alt;
+
+}
+
+.icon-reply-single {
+
+	@extend %icon-reply-single;
+
+}
+
+.icon-rightarrow {
+
+	@extend %icon-rightarrow;
+
+}
+
+.icon-send-to-phone {
+
+	@extend %icon-send-to-phone;
+
+}
+
+.icon-send-to-tablet {
+
+	@extend %icon-send-to-tablet;
+
+}
+
+.icon-sitemap {
+
+	@extend %icon-sitemap;
+
+}
+
+.icon-skype {
+
+	@extend %icon-skype;
+
+}
+
+.icon-spam {
+
+	@extend %icon-spam;
+
+}
+
+.icon-standard {
+
+	@extend %icon-standard;
+
+}
+
+.icon-status {
+
+	@extend %icon-status;
+
+}
+
+.icon-stumbleupon {
+
+	@extend %icon-stumbleupon;
+
+}
+
+.icon-subscribe {
+
+	@extend %icon-subscribe;
+
+}
+
+.icon-subscribed {
+
+	@extend %icon-subscribed;
+
+}
+
+.icon-tablet {
+
+	@extend %icon-tablet;
+
+}
+
+.icon-top {
+
+	@extend %icon-top;
+
+}
+
+.icon-tumblr {
+
+	@extend %icon-tumblr;
+
+}
+
+.icon-twitter {
+
+	@extend %icon-twitter;
+
+}
+
+.icon-unsubscribe {
+
+	@extend %icon-unsubscribe;
+
+}
+
+.icon-uparrow {
+
+	@extend %icon-uparrow;
+
+}
+
+.icon-video {
+
+	@extend %icon-video;
+
+}
+
+.icon-vimeo {
+
+	@extend %icon-vimeo;
+
+}
+
+.icon-week {
+
+	@extend %icon-week;
+
+}
+
 .icon-wordpress {
 
 	@extend %icon-wordpress;
-	font-size: 50px;
+
+}
+
+.icon-xpost {
+
+	@extend %icon-xpost;
+
+}
+
+.icon-youtube {
+
+	@extend %icon-youtube;
+
+}
+
+.icon-asterisk {
+
+	@extend %icon-asterisk;
+
+}
+
+.icon-plus {
+
+	@extend %icon-plus;
+
+}
+
+.icon-euro {
+
+	@extend %icon-euro;
+
+}
+
+.icon-minus {
+
+	@extend %icon-minus;
+
+}
+
+.icon-cloud {
+
+	@extend %icon-cloud;
+
+}
+
+.icon-envelope {
+
+	@extend %icon-envelope;
+
+}
+
+.icon-pencil {
+
+	@extend %icon-pencil;
+
+}
+
+.icon-glass {
+
+	@extend %icon-glass;
+
+}
+
+.icon-music {
+
+	@extend %icon-music;
+
+}
+
+.icon-search {
+
+	@extend %icon-search;
+
+}
+
+.icon-heart {
+
+	@extend %icon-heart;
+
+}
+
+.icon-star {
+
+	@extend %icon-star;
+
+}
+
+.icon-star-empty {
+
+	@extend %icon-star-empty;
+
+}
+
+.icon-user {
+
+	@extend %icon-user;
+
+}
+
+.icon-film {
+
+	@extend %icon-film;
+
+}
+
+.icon-th-large {
+
+	@extend %icon-th-large;
+
+}
+
+.icon-th {
+
+	@extend %icon-th;
+
+}
+
+.icon-th-list {
+
+	@extend %icon-th-list;
+
+}
+
+.icon-ok {
+
+	@extend %icon-ok;
+
+}
+
+.icon-remove {
+
+	@extend %icon-remove;
+
+}
+
+.icon-zoom-in {
+
+	@extend %icon-zoom-in;
+
+}
+
+.icon-zoom-out {
+
+	@extend %icon-zoom-out;
+
+}
+
+.icon-off {
+
+	@extend %icon-off;
+
+}
+
+.icon-signal {
+
+	@extend %icon-signal;
+
+}
+
+.icon-cog {
+
+	@extend %icon-cog;
+
+}
+
+.icon-trash {
+
+	@extend %icon-trash;
+
+}
+
+.icon-home {
+
+	@extend %icon-home;
+
+}
+
+.icon-file {
+
+	@extend %icon-file;
+
+}
+
+.icon-time {
+
+	@extend %icon-time;
+
+}
+
+.icon-road {
+
+	@extend %icon-road;
+
+}
+
+.icon-download-alt {
+
+	@extend %icon-download-alt;
+
+}
+
+.icon-download {
+
+	@extend %icon-download;
+
+}
+
+.icon-upload {
+
+	@extend %icon-upload;
+
+}
+
+.icon-inbox {
+
+	@extend %icon-inbox;
+
+}
+
+.icon-play-circle {
+
+	@extend %icon-play-circle;
+
+}
+
+.icon-repeat {
+
+	@extend %icon-repeat;
+
+}
+
+.icon-refresh {
+
+	@extend %icon-refresh;
+
+}
+
+.icon-list-alt {
+
+	@extend %icon-list-alt;
+
+}
+
+.icon-lock {
+
+	@extend %icon-lock;
+
+}
+
+.icon-flag {
+
+	@extend %icon-flag;
+
+}
+
+.icon-headphones {
+
+	@extend %icon-headphones;
+
+}
+
+.icon-volume-off {
+
+	@extend %icon-volume-off;
+
+}
+
+.icon-volume-down {
+
+	@extend %icon-volume-down;
+
+}
+
+.icon-volume-up {
+
+	@extend %icon-volume-up;
+
+}
+
+.icon-qrcode {
+
+	@extend %icon-qrcode;
+
+}
+
+.icon-barcode {
+
+	@extend %icon-barcode;
+
+}
+
+.icon-tag {
+
+	@extend %icon-tag;
+
+}
+
+.icon-tags {
+
+	@extend %icon-tags;
+
+}
+
+.icon-book {
+
+	@extend %icon-book;
+
+}
+
+.icon-bookmark {
+
+	@extend %icon-bookmark;
+
+}
+
+.icon-print {
+
+	@extend %icon-print;
+
+}
+
+.icon-camera {
+
+	@extend %icon-camera;
+
+}
+
+.icon-font {
+
+	@extend %icon-font;
+
+}
+
+.icon-bold {
+
+	@extend %icon-bold;
+
+}
+
+.icon-italic {
+
+	@extend %icon-italic;
+
+}
+
+.icon-text-height {
+
+	@extend %icon-text-height;
+
+}
+
+.icon-text-width {
+
+	@extend %icon-text-width;
+
+}
+
+.icon-align-left {
+
+	@extend %icon-align-left;
+
+}
+
+.icon-align-center {
+
+	@extend %icon-align-center;
+
+}
+
+.icon-align-right {
+
+	@extend %icon-align-right;
+
+}
+
+.icon-align-justify {
+
+	@extend %icon-align-justify;
+
+}
+
+.icon-list {
+
+	@extend %icon-list;
+
+}
+
+.icon-indent-left {
+
+	@extend %icon-indent-left;
+
+}
+
+.icon-indent-right {
+
+	@extend %icon-indent-right;
+
+}
+
+.icon-facetime-video {
+
+	@extend %icon-facetime-video;
+
+}
+
+.icon-picture {
+
+	@extend %icon-picture;
+
+}
+
+.icon-map-marker {
+
+	@extend %icon-map-marker;
+
+}
+
+.icon-adjust {
+
+	@extend %icon-adjust;
+
+}
+
+.icon-tint {
+
+	@extend %icon-tint;
+
+}
+
+.icon-edit {
+
+	@extend %icon-edit;
+
+}
+
+.icon-share {
+
+	@extend %icon-share;
+
+}
+
+.icon-check {
+
+	@extend %icon-check;
+
+}
+
+.icon-move {
+
+	@extend %icon-move;
+
+}
+
+.icon-step-backward {
+
+	@extend %icon-step-backward;
+
+}
+
+.icon-fast-backward {
+
+	@extend %icon-fast-backward;
+
+}
+
+.icon-backward {
+
+	@extend %icon-backward;
+
+}
+
+.icon-play {
+
+	@extend %icon-play;
+
+}
+
+.icon-pause {
+
+	@extend %icon-pause;
+
+}
+
+.icon-stop {
+
+	@extend %icon-stop;
+
+}
+
+.icon-forward {
+
+	@extend %icon-forward;
+
+}
+
+.icon-fast-forward {
+
+	@extend %icon-fast-forward;
+
+}
+
+.icon-step-forward {
+
+	@extend %icon-step-forward;
+
+}
+
+.icon-eject {
+
+	@extend %icon-eject;
+
+}
+
+.icon-chevron-left {
+
+	@extend %icon-chevron-left;
+
+}
+
+.icon-chevron-right {
+
+	@extend %icon-chevron-right;
+
+}
+
+.icon-plus-sign {
+
+	@extend %icon-plus-sign;
+
+}
+
+.icon-minus-sign {
+
+	@extend %icon-minus-sign;
+
+}
+
+.icon-remove-sign {
+
+	@extend %icon-remove-sign;
+
+}
+
+.icon-ok-sign {
+
+	@extend %icon-ok-sign;
+
+}
+
+.icon-question-sign {
+
+	@extend %icon-question-sign;
+
+}
+
+.icon-info-sign {
+
+	@extend %icon-info-sign;
+
+}
+
+.icon-screenshot {
+
+	@extend %icon-screenshot;
+
+}
+
+.icon-remove-circle {
+
+	@extend %icon-remove-circle;
+
+}
+
+.icon-ok-circle {
+
+	@extend %icon-ok-circle;
+
+}
+
+.icon-ban-circle {
+
+	@extend %icon-ban-circle;
+
+}
+
+.icon-arrow-left {
+
+	@extend %icon-arrow-left;
+
+}
+
+.icon-arrow-right {
+
+	@extend %icon-arrow-right;
+
+}
+
+.icon-arrow-up {
+
+	@extend %icon-arrow-up;
+
+}
+
+.icon-arrow-down {
+
+	@extend %icon-arrow-down;
+
+}
+
+.icon-share-alt {
+
+	@extend %icon-share-alt;
+
+}
+
+.icon-resize-full {
+
+	@extend %icon-resize-full;
+
+}
+
+.icon-resize-small {
+
+	@extend %icon-resize-small;
+
+}
+
+.icon-exclamation-sign {
+
+	@extend %icon-exclamation-sign;
+
+}
+
+.icon-gift {
+
+	@extend %icon-gift;
+
+}
+
+.icon-leaf {
+
+	@extend %icon-leaf;
+
+}
+
+.icon-fire {
+
+	@extend %icon-fire;
+
+}
+
+.icon-eye-open {
+
+	@extend %icon-eye-open;
+
+}
+
+.icon-eye-close {
+
+	@extend %icon-eye-close;
+
+}
+
+.icon-warning-sign {
+
+	@extend %icon-warning-sign;
+
+}
+
+.icon-plane {
+
+	@extend %icon-plane;
+
+}
+
+.icon-calendar {
+
+	@extend %icon-calendar;
+
+}
+
+.icon-random {
+
+	@extend %icon-random;
+
+}
+
+.icon-magnet {
+
+	@extend %icon-magnet;
+
+}
+
+.icon-chevron-up {
+
+	@extend %icon-chevron-up;
+
+}
+
+.icon-chevron-down {
+
+	@extend %icon-chevron-down;
+
+}
+
+.icon-retweet {
+
+	@extend %icon-retweet;
+
+}
+
+.icon-shopping-cart {
+
+	@extend %icon-shopping-cart;
+
+}
+
+.icon-folder-close {
+
+	@extend %icon-folder-close;
+
+}
+
+.icon-folder-open {
+
+	@extend %icon-folder-open;
+
+}
+
+.icon-resize-vertical {
+
+	@extend %icon-resize-vertical;
+
+}
+
+.icon-resize-horizontal {
+
+	@extend %icon-resize-horizontal;
+
+}
+
+.icon-hdd {
+
+	@extend %icon-hdd;
+
+}
+
+.icon-bullhorn {
+
+	@extend %icon-bullhorn;
+
+}
+
+.icon-bell {
+
+	@extend %icon-bell;
+
+}
+
+.icon-certificate {
+
+	@extend %icon-certificate;
+
+}
+
+.icon-thumbs-up {
+
+	@extend %icon-thumbs-up;
+
+}
+
+.icon-thumbs-down {
+
+	@extend %icon-thumbs-down;
+
+}
+
+.icon-hand-right {
+
+	@extend %icon-hand-right;
+
+}
+
+.icon-hand-left {
+
+	@extend %icon-hand-left;
+
+}
+
+.icon-hand-up {
+
+	@extend %icon-hand-up;
+
+}
+
+.icon-hand-down {
+
+	@extend %icon-hand-down;
+
+}
+
+.icon-circle-arrow-right {
+
+	@extend %icon-circle-arrow-right;
+
+}
+
+.icon-circle-arrow-left {
+
+	@extend %icon-circle-arrow-left;
+
+}
+
+.icon-circle-arrow-up {
+
+	@extend %icon-circle-arrow-up;
+
+}
+
+.icon-circle-arrow-down {
+
+	@extend %icon-circle-arrow-down;
+
+}
+
+.icon-globe {
+
+	@extend %icon-globe;
+
+}
+
+.icon-wrench {
+
+	@extend %icon-wrench;
+
+}
+
+.icon-tasks {
+
+	@extend %icon-tasks;
+
+}
+
+.icon-filter {
+
+	@extend %icon-filter;
+
+}
+
+.icon-briefcase {
+
+	@extend %icon-briefcase;
+
+}
+
+.icon-fullscreen {
+
+	@extend %icon-fullscreen;
+
+}
+
+.icon-dashboard {
+
+	@extend %icon-dashboard;
+
+}
+
+.icon-paperclip {
+
+	@extend %icon-paperclip;
+
+}
+
+.icon-heart-empty {
+
+	@extend %icon-heart-empty;
+
+}
+
+.icon-link {
+
+	@extend %icon-link;
+
+}
+
+.icon-phone {
+
+	@extend %icon-phone;
+
+}
+
+.icon-pushpin {
+
+	@extend %icon-pushpin;
+
+}
+
+.icon-usd {
+
+	@extend %icon-usd;
+
+}
+
+.icon-gbp {
+
+	@extend %icon-gbp;
+
+}
+
+.icon-sort {
+
+	@extend %icon-sort;
+
+}
+
+.icon-sort-by-alphabet {
+
+	@extend %icon-sort-by-alphabet;
+
+}
+
+.icon-sort-by-alphabet-alt {
+
+	@extend %icon-sort-by-alphabet-alt;
+
+}
+
+.icon-sort-by-order {
+
+	@extend %icon-sort-by-order;
+
+}
+
+.icon-sort-by-order-alt {
+
+	@extend %icon-sort-by-order-alt;
+
+}
+
+.icon-sort-by-attributes {
+
+	@extend %icon-sort-by-attributes;
+
+}
+
+.icon-sort-by-attributes-alt {
+
+	@extend %icon-sort-by-attributes-alt;
+
+}
+
+.icon-unchecked {
+
+	@extend %icon-unchecked;
+
+}
+
+.icon-expand {
+
+	@extend %icon-expand;
+
+}
+
+.icon-collapse-down {
+
+	@extend %icon-collapse-down;
+
+}
+
+.icon-collapse-up {
+
+	@extend %icon-collapse-up;
+
+}
+
+.icon-log-in {
+
+	@extend %icon-log-in;
+
+}
+
+.icon-flash {
+
+	@extend %icon-flash;
+
+}
+
+.icon-log-out {
+
+	@extend %icon-log-out;
+
+}
+
+.icon-new-window {
+
+	@extend %icon-new-window;
+
+}
+
+.icon-record {
+
+	@extend %icon-record;
+
+}
+
+.icon-save {
+
+	@extend %icon-save;
+
+}
+
+.icon-open {
+
+	@extend %icon-open;
+
+}
+
+.icon-saved {
+
+	@extend %icon-saved;
+
+}
+
+.icon-import {
+
+	@extend %icon-import;
+
+}
+
+.icon-export {
+
+	@extend %icon-export;
+
+}
+
+.icon-send {
+
+	@extend %icon-send;
+
+}
+
+.icon-floppy-disk {
+
+	@extend %icon-floppy-disk;
+
+}
+
+.icon-floppy-saved {
+
+	@extend %icon-floppy-saved;
+
+}
+
+.icon-floppy-remove {
+
+	@extend %icon-floppy-remove;
+
+}
+
+.icon-floppy-save {
+
+	@extend %icon-floppy-save;
+
+}
+
+.icon-floppy-open {
+
+	@extend %icon-floppy-open;
+
+}
+
+.icon-credit-card {
+
+	@extend %icon-credit-card;
+
+}
+
+.icon-transfer {
+
+	@extend %icon-transfer;
+
+}
+
+.icon-cutlery {
+
+	@extend %icon-cutlery;
+
+}
+
+.icon-header {
+
+	@extend %icon-header;
+
+}
+
+.icon-compressed {
+
+	@extend %icon-compressed;
+
+}
+
+.icon-earphone {
+
+	@extend %icon-earphone;
+
+}
+
+.icon-phone-alt {
+
+	@extend %icon-phone-alt;
+
+}
+
+.icon-tower {
+
+	@extend %icon-tower;
+
+}
+
+.icon-stats {
+
+	@extend %icon-stats;
+
+}
+
+.icon-sd-video {
+
+	@extend %icon-sd-video;
+
+}
+
+.icon-hd-video {
+
+	@extend %icon-hd-video;
+
+}
+
+.icon-subtitles {
+
+	@extend %icon-subtitles;
+
+}
+
+.icon-sound-stereo {
+
+	@extend %icon-sound-stereo;
+
+}
+
+.icon-sound-dolby {
+
+	@extend %icon-sound-dolby;
+
+}
+
+.icon-sound-5-1 {
+
+	@extend %icon-sound-5-1;
+
+}
+
+.icon-sound-6-1 {
+
+	@extend %icon-sound-6-1;
+
+}
+
+.icon-sound-7-1 {
+
+	@extend %icon-sound-7-1;
+
+}
+
+.icon-copyright-mark {
+
+	@extend %icon-copyright-mark;
+
+}
+
+.icon-registration-mark {
+
+	@extend %icon-registration-mark;
+
+}
+
+.icon-cloud-download {
+
+	@extend %icon-cloud-download;
+
+}
+
+.icon-cloud-upload {
+
+	@extend %icon-cloud-upload;
+
+}
+
+.icon-tree-conifer {
+
+	@extend %icon-tree-conifer;
+
+}
+
+.icon-tree-deciduous {
+
+	@extend %icon-tree-deciduous;
 
 }

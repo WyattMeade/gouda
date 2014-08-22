@@ -2,667 +2,544 @@ var iconData = {
 
 	"icons": [
 
-		{"icon": "404"},
+		// ---------- Gouda Icons
+		{"icon":"404"},
 
-		{"icon": "aside"},
+		{"icon":"aside"},
 
-		{"icon": "attachment"},
+		{"icon":"chat"},
 
-		{"icon": "audio"},
+		{"icon":"close-alt"},
 
-		{"icon": "bold"},
+		{"icon":"code"},
 
-		{"icon": "book"},
+		{"icon":"codepen"},
 
-		{"icon": "cart"},
+		{"icon":"cog"},
 
-		{"icon": "category"},
+		{"icon":"day"},
 
-		{"icon": "chat"},
+		{"icon":"digg"},
 
-		{"icon": "checkmark"},
+		{"icon":"document"},
 
-		{"icon": "close"},
+		{"icon":"dot"},
 
-		{"icon": "close-alt"},
+		{"icon":"downarrow"},
 
-		{"icon": "cloud"},
+		{"icon":"dribbble"},
 
-		{"icon": "cloud-download"},
+		{"icon":"dropbox"},
 
-		{"icon": "cloud-upload"},
+		{"icon":"dropdown"},
 
-		{"icon": "code"},
+		{"icon":"dropdown-left"},
 
-		{"icon": "codepen"},
+		{"icon":"ellipsis"},
 
-		{"icon": "cog"},
+		{"icon":"facebook"},
 
-		{"icon": "collapse"},
+		{"icon":"facebook-alt"},
 
-		{"icon": "comment"},
+		{"icon":"feed"},
 
-		{"icon": "day"},
+		{"icon":"flickr"},
 
-		{"icon": "digg"},
+		{"icon":"foursquare"},
 
-		{"icon": "document"},
+		{"icon":"gallery"},
 
-		{"icon": "dot"},
+		{"icon":"github"},
 
-		{"icon": "downarrow"},
+		{"icon":"googleplus"},
 
-		{"icon": "draggable"},
+		{"icon":"googleplus-alt"},
 
-		{"icon": "dribbble"},
+		{"icon":"hierarchy"},
 
-		{"icon": "dropbox"},
+		{"icon":"instagram"},
 
-		{"icon": "dropdown"},
+		{"icon":"key"},
 
-		{"icon": "dropdown-left"},
+		{"icon":"leftarrow"},
 
-		{"icon": "edit"},
+		{"icon":"linkedin"},
 
-		{"icon": "ellipsis"},
+		{"icon":"linkedin-alt"},
 
-		{"icon": "expand"},
+		{"icon":"maximize"},
 
-		{"icon": "external"},
+		{"icon":"menu"},
 
-		{"icon": "facebook"},
+		{"icon":"paintbrush"},
 
-		{"icon": "facebook-alt"},
+		{"icon":"path"},
 
-		{"icon": "fastforward"},
+		{"icon":"pinterest"},
 
-		{"icon": "feed"},
+		{"icon":"pinterest-alt"},
 
-		{"icon": "flag"},
+		{"icon":"plugin"},
 
-		{"icon": "flickr"},
+		{"icon":"pocket"},
 
-		{"icon": "foursquare"},
+		{"icon":"polldaddy"},
 
-		{"icon": "fullscreen"},
+		{"icon":"portfolio"},
 
-		{"icon": "gallery"},
+		{"icon":"quote"},
 
-		{"icon": "github"},
+		{"icon":"reddit"},
 
-		{"icon": "googleplus"},
+		{"icon":"reply"},
 
-		{"icon": "googleplus-alt"},
+		{"icon":"reply-alt"},
 
-		{"icon": "heart"},
+		{"icon":"reply-single"},
 
-		{"icon": "help"},
+		{"icon":"rightarrow"},
 
-		{"icon": "hide"},
+		{"icon":"send-to-phone"},
 
-		{"icon": "hierarchy"},
+		{"icon":"send-to-tablet"},
 
-		{"icon": "home"},
+		{"icon":"sitemap"},
 
-		{"icon": "image"},
+		{"icon":"skype"},
 
-		{"icon": "info"},
+		{"icon":"spam"},
 
-		{"icon": "instagram"},
+		{"icon":"standard"},
 
-		{"icon": "italic"},
+		{"icon":"status"},
 
-		{"icon": "key"},
+		{"icon":"stumbleupon"},
 
-		{"icon": "leftarrow"},
+		{"icon":"subscribe"},
 
-		{"icon": "link"},
+		{"icon":"subscribed"},
 
-		{"icon": "linkedin"},
+		{"icon":"tablet"},
 
-		{"icon": "linkedin-alt"},
+		{"icon":"top"},
 
-		{"icon": "location"},
+		{"icon":"tumblr"},
 
-		{"icon": "lock"},
+		{"icon":"twitter"},
 
-		{"icon": "mail"},
+		{"icon":"unsubscribe"},
 
-		{"icon": "maximize"},
+		{"icon":"uparrow"},
 
-		{"icon": "menu"},
+		{"icon":"video"},
 
-		{"icon": "minimize"},
+		{"icon":"vimeo"},
 
-		{"icon": "month"},
+		{"icon":"week"},
 
-		{"icon": "next"},
+		{"icon":"wordpress"},
 
-		{"icon": "notice"},
+		{"icon":"xpost"},
 
-		{"icon": "paintbrush"},
+		{"icon":"youtube"},
 
-		{"icon": "path"},
+		{"icon":"asterisk"},
 
-		{"icon": "pause"},
+		{"icon":"plus"},
 
-		{"icon": "phone"},
+		{"icon":"euro"},
 
-		{"icon": "picture"},
+		{"icon":"minus"},
 
-		{"icon": "pinned"},
+		{"icon":"cloud"},
 
-		{"icon": "pinterest"},
+		{"icon":"envelope"},
 
-		{"icon": "pinterest-alt"},
+		{"icon":"pencil"},
 
-		{"icon": "play"},
+		{"icon":"glass"},
 
-		{"icon": "plugin"},
+		{"icon":"music"},
 
-		{"icon": "pocket"},
+		{"icon":"search"},
 
-		{"icon": "polldaddy"},
+		{"icon":"heart"},
 
-		{"icon": "portfolio"},
+		{"icon":"star"},
 
-		{"icon": "previous"},
+		{"icon":"star-empty"},
 
-		{"icon": "print"},
+		{"icon":"user"},
 
-		{"icon": "quote"},
+		{"icon":"film"},
 
-		{"icon": "reddit"},
+		{"icon":"th-large"},
 
-		{"icon": "refresh"},
+		{"icon":"th"},
 
-		{"icon": "reply"},
+		{"icon":"th-list"},
 
-		{"icon": "reply-alt"},
+		{"icon":"ok"},
 
-		{"icon": "reply-single"},
+		{"icon":"remove"},
 
-		{"icon": "rewind"},
+		{"icon":"zoom-in"},
 
-		{"icon": "rightarrow"},
+		{"icon":"zoom-out"},
 
-		{"icon": "search"},
+		{"icon":"off"},
 
-		{"icon": "send-to-phone"},
+		{"icon":"signal"},
 
-		{"icon": "send-to-tablet"},
+		{"icon":"cog"},
 
-		{"icon": "share"},
+		{"icon":"trash"},
 
-		{"icon": "show"},
+		{"icon":"home"},
 
-		{"icon": "sitemap"},
+		{"icon":"file"},
 
-		{"icon": "skip-ahead"},
+		{"icon":"time"},
 
-		{"icon": "skip-back"},
+		{"icon":"road"},
 
-		{"icon": "skype"},
+		{"icon":"download-alt"},
 
-		{"icon": "spam"},
+		{"icon":"download"},
 
-		{"icon": "standard"},
+		{"icon":"upload"},
 
-		{"icon": "star"},
+		{"icon":"inbox"},
 
-		{"icon": "status"},
+		{"icon":"play-circle"},
 
-		{"icon": "stop"},
+		{"icon":"repeat"},
 
-		{"icon": "stumbleupon"},
+		{"icon":"refresh"},
 
-		{"icon": "subscribe"},
+		{"icon":"list-alt"},
 
-		{"icon": "subscribed"},
+		{"icon":"lock"},
 
-		{"icon": "summary"},
+		{"icon":"flag"},
 
-		{"icon": "tablet"},
+		{"icon":"headphones"},
 
-		{"icon": "tag"},
+		{"icon":"volume-off"},
 
-		{"icon": "time"},
+		{"icon":"volume-down"},
 
-		{"icon": "top"},
+		{"icon":"volume-up"},
 
-		{"icon": "trash"},
+		{"icon":"qrcode"},
 
-		{"icon": "tumblr"},
+		{"icon":"barcode"},
 
-		{"icon": "twitter"},
+		{"icon":"tag"},
 
-		{"icon": "unapprove"},
+		{"icon":"tags"},
 
-		{"icon": "unsubscribe"},
+		{"icon":"book"},
 
-		{"icon": "unzoom"},
+		{"icon":"bookmark"},
 
-		{"icon": "uparrow"},
+		{"icon":"print"},
 
-		{"icon": "user"},
+		{"icon":"camera"},
 
-		{"icon": "video"},
+		{"icon":"font"},
 
-		{"icon": "vimeo"},
+		{"icon":"bold"},
 
-		{"icon": "warning"},
+		{"icon":"italic"},
 
-		{"icon": "website"},
+		{"icon":"text-height"},
 
-		{"icon": "week"},
+		{"icon":"text-width"},
 
-		{"icon": "wordpress"},
+		{"icon":"align-left"},
 
-		{"icon": "xpost"},
+		{"icon":"align-center"},
 
-		{"icon": "youtube"},
+		{"icon":"align-right"},
 
-		{"icon": "zoom"},
+		{"icon":"align-justify"},
 
-		{"icon": "asterisk"},
+		{"icon":"list"},
 
-		{"icon": "plus"},
+		{"icon":"indent-left"},
 
-		{"icon": "euro"},
+		{"icon":"indent-right"},
 
-		{"icon": "minus"},
+		{"icon":"facetime-video"},
 
-		{"icon": "cloud"},
+		{"icon":"picture"},
 
-		{"icon": "envelope"},
+		{"icon":"map-marker"},
 
-		{"icon": "pencil"},
+		{"icon":"adjust"},
 
-		{"icon": "glass"},
+		{"icon":"tint"},
 
-		{"icon": "music"},
+		{"icon":"edit"},
 
-		{"icon": "search"},
+		{"icon":"share"},
 
-		{"icon": "heart"},
+		{"icon":"check"},
 
-		{"icon": "star"},
+		{"icon":"move"},
 
-		{"icon": "star-empty"},
+		{"icon":"step-backward"},
 
-		{"icon": "user"},
+		{"icon":"fast-backward"},
 
-		{"icon": "film"},
+		{"icon":"backward"},
 
-		{"icon": "th-large"},
+		{"icon":"play"},
 
-		{"icon": "th"},
+		{"icon":"pause"},
 
-		{"icon": "th-list"},
+		{"icon":"stop"},
 
-		{"icon": "ok"},
+		{"icon":"forward"},
 
-		{"icon": "remove"},
+		{"icon":"fast-forward"},
 
-		{"icon": "zoom-in"},
+		{"icon":"step-forward"},
 
-		{"icon": "zoom-out"},
+		{"icon":"eject"},
 
-		{"icon": "off"},
+		{"icon":"chevron-left"},
 
-		{"icon": "signal"},
+		{"icon":"chevron-right"},
 
-		{"icon": "cog"},
+		{"icon":"plus-sign"},
 
-		{"icon": "trash"},
+		{"icon":"minus-sign"},
 
-		{"icon": "home"},
+		{"icon":"remove-sign"},
 
-		{"icon": "file"},
+		{"icon":"ok-sign"},
 
-		{"icon": "time"},
+		{"icon":"question-sign"},
 
-		{"icon": "road"},
+		{"icon":"info-sign"},
 
-		{"icon": "download-alt"},
+		{"icon":"screenshot"},
 
-		{"icon": "download"},
+		{"icon":"remove-circle"},
 
-		{"icon": "upload"},
+		{"icon":"ok-circle"},
 
-		{"icon": "inbox"},
+		{"icon":"ban-circle"},
 
-		{"icon": "play-circle"},
+		{"icon":"arrow-left"},
 
-		{"icon": "repeat"},
+		{"icon":"arrow-right"},
 
-		{"icon": "refresh"},
+		{"icon":"arrow-up"},
 
-		{"icon": "list-alt"},
+		{"icon":"arrow-down"},
 
-		{"icon": "lock"},
+		{"icon":"share-alt"},
 
-		{"icon": "flag"},
+		{"icon":"resize-full"},
 
-		{"icon": "headphones"},
+		{"icon":"resize-small"},
 
-		{"icon": "volume-off"},
+		{"icon":"exclamation-sign"},
 
-		{"icon": "volume-down"},
+		{"icon":"gift"},
 
-		{"icon": "volume-up"},
+		{"icon":"leaf"},
 
-		{"icon": "qrcode"},
+		{"icon":"fire"},
 
-		{"icon": "barcode"},
+		{"icon":"eye-open"},
 
-		{"icon": "tag"},
+		{"icon":"eye-close"},
 
-		{"icon": "tags"},
+		{"icon":"warning-sign"},
 
-		{"icon": "book"},
+		{"icon":"plane"},
 
-		{"icon": "bookmark"},
+		{"icon":"calendar"},
 
-		{"icon": "print"},
+		{"icon":"random"},
 
-		{"icon": "camera"},
+		{"icon":"magnet"},
 
-		{"icon": "font"},
+		{"icon":"chevron-up"},
 
-		{"icon": "bold"},
+		{"icon":"chevron-down"},
 
-		{"icon": "italic"},
+		{"icon":"retweet"},
 
-		{"icon": "text-height"},
+		{"icon":"shopping-cart"},
 
-		{"icon": "text-width"},
+		{"icon":"folder-close"},
 
-		{"icon": "align-left"},
+		{"icon":"folder-open"},
 
-		{"icon": "align-center"},
+		{"icon":"resize-vertical"},
 
-		{"icon": "align-right"},
+		{"icon":"resize-horizontal"},
 
-		{"icon": "align-justify"},
+		{"icon":"hdd"},
 
-		{"icon": "list"},
+		{"icon":"bullhorn"},
 
-		{"icon": "indent-left"},
+		{"icon":"bell"},
 
-		{"icon": "indent-right"},
+		{"icon":"certificate"},
 
-		{"icon": "facetime-video"},
+		{"icon":"thumbs-up"},
 
-		{"icon": "picture"},
+		{"icon":"thumbs-down"},
 
-		{"icon": "map-marker"},
+		{"icon":"hand-right"},
 
-		{"icon": "adjust"},
+		{"icon":"hand-left"},
 
-		{"icon": "tint"},
+		{"icon":"hand-up"},
 
-		{"icon": "edit"},
+		{"icon":"hand-down"},
 
-		{"icon": "share"},
+		{"icon":"circle-arrow-right"},
 
-		{"icon": "check"},
+		{"icon":"circle-arrow-left"},
 
-		{"icon": "move"},
+		{"icon":"circle-arrow-up"},
 
-		{"icon": "step-backward"},
+		{"icon":"circle-arrow-down"},
 
-		{"icon": "fast-backward"},
+		{"icon":"globe"},
 
-		{"icon": "backward"},
+		{"icon":"wrench"},
 
-		{"icon": "play"},
+		{"icon":"tasks"},
 
-		{"icon": "pause"},
+		{"icon":"filter"},
 
-		{"icon": "stop"},
+		{"icon":"briefcase"},
 
-		{"icon": "forward"},
+		{"icon":"fullscreen"},
 
-		{"icon": "fast-forward"},
+		{"icon":"dashboard"},
 
-		{"icon": "step-forward"},
+		{"icon":"paperclip"},
 
-		{"icon": "eject"},
+		{"icon":"heart-empty"},
 
-		{"icon": "chevron-left"},
+		{"icon":"link"},
 
-		{"icon": "chevron-right"},
+		{"icon":"phone"},
 
-		{"icon": "plus-sign"},
+		{"icon":"pushpin"},
 
-		{"icon": "minus-sign"},
+		{"icon":"usd"},
 
-		{"icon": "remove-sign"},
+		{"icon":"gbp"},
 
-		{"icon": "ok-sign"},
+		{"icon":"sort"},
 
-		{"icon": "question-sign"},
+		{"icon":"sort-by-alphabet"},
 
-		{"icon": "info-sign"},
+		{"icon":"sort-by-alphabet-alt"},
 
-		{"icon": "screenshot"},
+		{"icon":"sort-by-order"},
 
-		{"icon": "remove-circle"},
+		{"icon":"sort-by-order-alt"},
 
-		{"icon": "ok-circle"},
+		{"icon":"sort-by-attributes"},
 
-		{"icon": "ban-circle"},
+		{"icon":"sort-by-attributes-alt"},
 
-		{"icon": "arrow-left"},
+		{"icon":"unchecked"},
 
-		{"icon": "arrow-right"},
+		{"icon":"expand"},
 
-		{"icon": "arrow-up"},
+		{"icon":"collapse-down"},
 
-		{"icon": "arrow-down"},
+		{"icon":"collapse-up"},
 
-		{"icon": "share-alt"},
+		{"icon":"log-in"},
 
-		{"icon": "resize-full"},
+		{"icon":"flash"},
 
-		{"icon": "resize-small"},
+		{"icon":"log-out"},
 
-		{"icon": "exclamation-sign"},
+		{"icon":"new-window"},
 
-		{"icon": "gift"},
+		{"icon":"record"},
 
-		{"icon": "leaf"},
+		{"icon":"save"},
 
-		{"icon": "fire"},
+		{"icon":"open"},
 
-		{"icon": "eye-open"},
+		{"icon":"saved"},
 
-		{"icon": "eye-close"},
+		{"icon":"import"},
 
-		{"icon": "warning-sign"},
+		{"icon":"export"},
 
-		{"icon": "plane"},
+		{"icon":"send"},
 
-		{"icon": "calendar"},
+		{"icon":"floppy-disk"},
 
-		{"icon": "random"},
+		{"icon":"floppy-saved"},
 
-		{"icon": "comment"},
+		{"icon":"floppy-remove"},
 
-		{"icon": "magnet"},
+		{"icon":"floppy-save"},
 
-		{"icon": "chevron-up"},
+		{"icon":"floppy-open"},
 
-		{"icon": "chevron-down"},
+		{"icon":"credit-card"},
 
-		{"icon": "retweet"},
+		{"icon":"transfer"},
 
-		{"icon": "shopping-cart"},
+		{"icon":"cutlery"},
 
-		{"icon": "folder-close"},
+		{"icon":"header"},
 
-		{"icon": "folder-open"},
+		{"icon":"compressed"},
 
-		{"icon": "resize-vertical"},
+		{"icon":"earphone"},
 
-		{"icon": "resize-horizontal"},
+		{"icon":"phone-alt"},
 
-		{"icon": "hdd"},
+		{"icon":"tower"},
 
-		{"icon": "bullhorn"},
+		{"icon":"stats"},
 
-		{"icon": "bell"},
+		{"icon":"sd-video"},
 
-		{"icon": "certificate"},
+		{"icon":"hd-video"},
 
-		{"icon": "thumbs-up"},
+		{"icon":"subtitles"},
 
-		{"icon": "thumbs-down"},
+		{"icon":"sound-stereo"},
 
-		{"icon": "hand-right"},
+		{"icon":"sound-dolby"},
 
-		{"icon": "hand-left"},
+		{"icon":"sound-5-1"},
 
-		{"icon": "hand-up"},
+		{"icon":"sound-6-1"},
 
-		{"icon": "hand-down"},
+		{"icon":"sound-7-1"},
 
-		{"icon": "circle-arrow-right"},
+		{"icon":"copyright-mark"},
 
-		{"icon": "circle-arrow-left"},
+		{"icon":"registration-mark"},
 
-		{"icon": "circle-arrow-up"},
+		{"icon":"cloud-download"},
 
-		{"icon": "circle-arrow-down"},
+		{"icon":"cloud-upload"},
 
-		{"icon": "globe"},
+		{"icon":"tree-conifer"},
 
-		{"icon": "wrench"},
-
-		{"icon": "tasks"},
-
-		{"icon": "filter"},
-
-		{"icon": "briefcase"},
-
-		{"icon": "fullscreen"},
-
-		{"icon": "dashboard"},
-
-		{"icon": "paperclip"},
-
-		{"icon": "heart-empty"},
-
-		{"icon": "link"},
-
-		{"icon": "phone"},
-
-		{"icon": "pushpin"},
-
-		{"icon": "usd"},
-
-		{"icon": "gbp"},
-
-		{"icon": "sort"},
-
-		{"icon": "sort-by-alphabet"},
-
-		{"icon": "sort-by-alphabet-alt"},
-
-		{"icon": "sort-by-order"},
-
-		{"icon": "sort-by-order-alt"},
-
-		{"icon": "sort-by-attributes"},
-
-		{"icon": "sort-by-attributes-alt"},
-
-		{"icon": "unchecked"},
-
-		{"icon": "expand"},
-
-		{"icon": "collapse-down"},
-
-		{"icon": "collapse-up"},
-
-		{"icon": "log-in"},
-
-		{"icon": "flash"},
-
-		{"icon": "log-out"},
-
-		{"icon": "new-window"},
-
-		{"icon": "record"},
-
-		{"icon": "save"},
-
-		{"icon": "open"},
-
-		{"icon": "saved"},
-
-		{"icon": "import"},
-
-		{"icon": "export"},
-
-		{"icon": "send"},
-
-		{"icon": "floppy-disk"},
-
-		{"icon": "floppy-saved"},
-
-		{"icon": "floppy-remove"},
-
-		{"icon": "floppy-save"},
-
-		{"icon": "floppy-open"},
-
-		{"icon": "credit-card"},
-
-		{"icon": "transfer"},
-
-		{"icon": "cutlery"},
-
-		{"icon": "header"},
-
-		{"icon": "compressed"},
-
-		{"icon": "earphone"},
-
-		{"icon": "phone-alt"},
-
-		{"icon": "tower"},
-
-		{"icon": "stats"},
-
-		{"icon": "sd-video"},
-
-		{"icon": "hd-video"},
-
-		{"icon": "subtitles"},
-
-		{"icon": "sound-stereo"},
-
-		{"icon": "sound-dolby"},
-
-		{"icon": "sound-5-1"},
-
-		{"icon": "sound-6-1"},
-
-		{"icon": "sound-7-1"},
-
-		{"icon": "copyright-mark"},
-
-		{"icon": "registration-mark"},
-
-		{"icon": "cloud-download"},
-
-		{"icon": "cloud-upload"},
-
-		{"icon": "tree-conifer"},
-
-		{"icon": "tree-deciduous"}
+		{"icon":"tree-deciduous"}
 
 	]
 

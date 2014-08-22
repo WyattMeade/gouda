@@ -22,72 +22,6 @@
 
 }
 
-%icon-attachment {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f416";
-
-	}
-
-}
-
-%icon-audio {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f109";
-
-	}
-
-}
-
-%icon-bold {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f471";
-
-	}
-
-}
-
-%icon-book {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f444";
-
-	}
-
-}
-
-%icon-cart {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f447";
-
-	}
-
-}
-
-%icon-category {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f301";
-
-	}
-
-}
-
 %icon-chat {
 
 	&:before{
@@ -99,67 +33,12 @@
 
 }
 
-%icon-checkmark {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f418";
-
-	}
-
-}
-
-%icon-close {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f405";
-
-	}
-
-}
-
 %icon-close-alt {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f406";
-
-	}
-
-}
-
-%icon-cloud {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f426";
-
-	}
-
-}
-
-%icon-cloud-download {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f440";
-
-	}
-
-}
-
-%icon-cloud-upload {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f441";
 
 	}
 
@@ -193,28 +72,6 @@
 		
 		@extend %genericons;
 		content: "\f445";
-
-	}
-
-}
-
-%icon-collapse {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f432";
-
-	}
-
-}
-
-%icon-comment {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f300";
 
 	}
 
@@ -275,17 +132,6 @@
 
 }
 
-%icon-draggable {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f436";
-
-	}
-
-}
-
 %icon-dribbble {
 
 	&:before{
@@ -330,45 +176,12 @@
 
 }
 
-%icon-edit {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f411";
-
-	}
-
-}
-
 %icon-ellipsis {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f476";
-
-	}
-
-}
-
-%icon-expand {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f431";
-
-	}
-
-}
-
-%icon-external {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f442";
 
 	}
 
@@ -396,34 +209,12 @@
 
 }
 
-%icon-fastforward {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f458";
-
-	}
-
-}
-
 %icon-feed {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f413";
-
-	}
-
-}
-
-%icon-flag {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f468";
 
 	}
 
@@ -446,17 +237,6 @@
 		
 		@extend %genericons;
 		content: "\f226";
-
-	}
-
-}
-
-%icon-fullscreen {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f474";
 
 	}
 
@@ -506,39 +286,6 @@
 
 }
 
-%icon-heart {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f461";
-
-	}
-
-}
-
-%icon-help {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f457";
-
-	}
-
-}
-
-%icon-hide {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f404";
-
-	}
-
-}
-
 %icon-hierarchy {
 
 	&:before{
@@ -550,56 +297,12 @@
 
 }
 
-%icon-home {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f409";
-
-	}
-
-}
-
-%icon-image {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f102";
-
-	}
-
-}
-
-%icon-info {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f455";
-
-	}
-
-}
-
 %icon-instagram {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f215";
-
-	}
-
-}
-
-%icon-italic {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f472";
 
 	}
 
@@ -627,17 +330,6 @@
 
 }
 
-%icon-link {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f107";
-
-	}
-
-}
-
 %icon-linkedin {
 
 	&:before{
@@ -655,39 +347,6 @@
 		
 		@extend %genericons;
 		content: "\f208";
-
-	}
-
-}
-
-%icon-location {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f417";
-
-	}
-
-}
-
-%icon-lock {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f470";
-
-	}
-
-}
-
-%icon-mail {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f410";
 
 	}
 
@@ -715,50 +374,6 @@
 
 }
 
-%icon-minimize {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f421";
-
-	}
-
-}
-
-%icon-month {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f307";
-
-	}
-
-}
-
-%icon-next {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f429";
-
-	}
-
-}
-
-%icon-notice {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f456";
-
-	}
-
-}
-
 %icon-paintbrush {
 
 	&:before{
@@ -781,50 +396,6 @@
 
 }
 
-%icon-pause {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f448";
-
-	}
-
-}
-
-%icon-phone {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f437";
-
-	}
-
-}
-
-%icon-picture {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f473";
-
-	}
-
-}
-
-%icon-pinned {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f308";
-
-	}
-
-}
-
 %icon-pinterest {
 
 	&:before{
@@ -842,17 +413,6 @@
 		
 		@extend %genericons;
 		content: "\f210";
-
-	}
-
-}
-
-%icon-play {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f452";
 
 	}
 
@@ -902,28 +462,6 @@
 
 }
 
-%icon-previous {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f430";
-
-	}
-
-}
-
-%icon-print {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f469";
-
-	}
-
-}
-
 %icon-quote {
 
 	&:before{
@@ -941,17 +479,6 @@
 		
 		@extend %genericons;
 		content: "\f222";
-
-	}
-
-}
-
-%icon-refresh {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f420";
 
 	}
 
@@ -990,34 +517,12 @@
 
 }
 
-%icon-rewind {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f459";
-
-	}
-
-}
-
 %icon-rightarrow {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f501";
-
-	}
-
-}
-
-%icon-search {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f400";
 
 	}
 
@@ -1045,56 +550,12 @@
 
 }
 
-%icon-share {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f415";
-
-	}
-
-}
-
-%icon-show {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f403";
-
-	}
-
-}
-
 %icon-sitemap {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f507";
-
-	}
-
-}
-
-%icon-skip-ahead {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f451";
-
-	}
-
-}
-
-%icon-skip-back {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f450";
 
 	}
 
@@ -1133,34 +594,12 @@
 
 }
 
-%icon-star {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f408";
-
-	}
-
-}
-
 %icon-status {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f105";
-
-	}
-
-}
-
-%icon-stop {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f449";
 
 	}
 
@@ -1199,17 +638,6 @@
 
 }
 
-%icon-summary {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f425";
-
-	}
-
-}
-
 %icon-tablet {
 
 	&:before{
@@ -1221,45 +649,12 @@
 
 }
 
-%icon-tag {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f302";
-
-	}
-
-}
-
-%icon-time {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f303";
-
-	}
-
-}
-
 %icon-top {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f435";
-
-	}
-
-}
-
-%icon-trash {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f407";
 
 	}
 
@@ -1287,17 +682,6 @@
 
 }
 
-%icon-unapprove {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f446";
-
-	}
-
-}
-
 %icon-unsubscribe {
 
 	&:before{
@@ -1309,34 +693,12 @@
 
 }
 
-%icon-unzoom {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f401";
-
-	}
-
-}
-
 %icon-uparrow {
 
 	&:before{
 		
 		@extend %genericons;
 		content: "\f500";
-
-	}
-
-}
-
-%icon-user {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f304";
 
 	}
 
@@ -1359,28 +721,6 @@
 		
 		@extend %genericons;
 		content: "\f212";
-
-	}
-
-}
-
-%icon-warning {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f414";
-
-	}
-
-}
-
-%icon-website {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f475";
 
 	}
 
@@ -1430,2012 +770,2190 @@
 
 }
 
-%icon-zoom {
-
-	&:before{
-		
-		@extend %genericons;
-		content: "\f402";
-
-	}
-
-}
 %icon-asterisk {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\2a";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\2a";
+
+    }
+
 }
 
 %icon-plus {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\2b";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\2b";
+
+    }
+
 }
 
 %icon-euro {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\20ac";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\20ac";
+
+    }
+
 }
 
 %icon-minus {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\2212";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\2212";
+
+    }
+
 }
 
 %icon-cloud {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\2601";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\2601";
+
+    }
+
 }
 
 %icon-envelope {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\2709";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\2709";
+
+    }
+
 }
 
 %icon-pencil {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\270f";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\270f";
+
+    }
+
 }
 
 %icon-glass {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e001";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e001";
+
+    }
+
 }
 
 %icon-music {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e002";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e002";
+
+    }
+
 }
 
 %icon-search {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e003";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e003";
+
+    }
+
 }
 
 %icon-heart {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e005";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e005";
+
+    }
+
 }
 
 %icon-star {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e006";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e006";
+
+    }
+
 }
 
 %icon-star-empty {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e007";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e007";
+
+    }
+
 }
 
 %icon-user {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e008";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e008";
+
+    }
+
 }
 
 %icon-film {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e009";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e009";
+
+    }
+
 }
 
 %icon-th-large {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e010";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e010";
+
+    }
+
 }
 
 %icon-th {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e011";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e011";
+
+    }
+
 }
 
 %icon-th-list {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e012";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e012";
+
+    }
+
 }
 
 %icon-ok {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e013";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e013";
+
+    }
+
 }
 
 %icon-remove {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e014";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e014";
+
+    }
+
 }
 
 %icon-zoom-in {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e015";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e015";
+
+    }
+
 }
 
 %icon-zoom-out {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e016";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e016";
+
+    }
+
 }
 
 %icon-off {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e017";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e017";
+
+    }
+
 }
 
 %icon-signal {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e018";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e018";
+
+    }
+
 }
 
 %icon-cog {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e019";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e019";
+
+    }
+
 }
 
 %icon-trash {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e020";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e020";
+
+    }
+
 }
 
 %icon-home {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e021";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e021";
+
+    }
+
 }
 
 %icon-file {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e022";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e022";
+
+    }
+
 }
 
 %icon-time {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e023";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e023";
+
+    }
+
 }
 
 %icon-road {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e024";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e024";
+
+    }
+
 }
 
 %icon-download-alt {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e025";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e025";
+
+    }
+
 }
 
 %icon-download {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e026";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e026";
+
+    }
+
 }
 
 %icon-upload {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e027";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e027";
+
+    }
+
 }
 
 %icon-inbox {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e028";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e028";
+
+    }
+
 }
 
 %icon-play-circle {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e029";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e029";
+
+    }
+
 }
 
 %icon-repeat {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e030";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e030";
+
+    }
+
 }
 
 %icon-refresh {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e031";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e031";
+
+    }
+
 }
 
 %icon-list-alt {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e032";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e032";
+
+    }
+
 }
 
 %icon-lock {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e033";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e033";
+
+    }
+
 }
 
 %icon-flag {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e034";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e034";
+
+    }
+
 }
 
 %icon-headphones {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e035";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e035";
+
+    }
+
 }
 
 %icon-volume-off {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e036";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e036";
+
+    }
+
 }
 
 %icon-volume-down {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e037";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e037";
+
+    }
+
 }
 
 %icon-volume-up {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e038";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e038";
+
+    }
+
 }
 
 %icon-qrcode {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e039";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e039";
+
+    }
+
 }
 
 %icon-barcode {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e040";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e040";
+
+    }
+
 }
 
 %icon-tag {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e041";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e041";
+
+    }
+
 }
 
 %icon-tags {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e042";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e042";
+
+    }
+
 }
 
 %icon-book {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e043";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e043";
+
+    }
+
 }
 
 %icon-bookmark {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e044";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e044";
+
+    }
+
 }
 
 %icon-print {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e045";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e045";
+
+    }
+
 }
 
 %icon-camera {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e046";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e046";
+
+    }
+
 }
 
 %icon-font {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e047";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e047";
+
+    }
+
 }
 
 %icon-bold {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e048";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e048";
+
+    }
+
 }
 
 %icon-italic {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e049";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e049";
+
+    }
+
 }
 
 %icon-text-height {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e050";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e050";
+
+    }
+
 }
 
 %icon-text-width {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e051";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e051";
+
+    }
+
 }
 
 %icon-align-left {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e052";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e052";
+
+    }
+
 }
 
 %icon-align-center {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e053";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e053";
+
+    }
+
 }
 
 %icon-align-right {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e054";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e054";
+
+    }
+
 }
 
 %icon-align-justify {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e055";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e055";
+
+    }
+
 }
 
 %icon-list {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e056";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e056";
+
+    }
+
 }
 
 %icon-indent-left {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e057";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e057";
+
+    }
+
 }
 
 %icon-indent-right {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e058";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e058";
+
+    }
+
 }
 
 %icon-facetime-video {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e059";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e059";
+
+    }
+
 }
 
 %icon-picture {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e060";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e060";
+
+    }
+
 }
 
 %icon-map-marker {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e062";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e062";
+
+    }
+
 }
 
 %icon-adjust {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e063";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e063";
+
+    }
+
 }
 
 %icon-tint {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e064";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e064";
+
+    }
+
 }
 
 %icon-edit {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e065";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e065";
+
+    }
+
 }
 
 %icon-share {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e066";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e066";
+
+    }
+
 }
 
 %icon-check {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e067";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e067";
+
+    }
+
 }
 
 %icon-move {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e068";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e068";
+
+    }
+
 }
 
 %icon-step-backward {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e069";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e069";
+
+    }
+
 }
 
 %icon-fast-backward {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e070";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e070";
+
+    }
+
 }
 
 %icon-backward {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e071";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e071";
+
+    }
+
 }
 
 %icon-play {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e072";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e072";
+
+    }
+
 }
 
 %icon-pause {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e073";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e073";
+
+    }
+
 }
 
 %icon-stop {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e074";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e074";
+
+    }
+
 }
 
 %icon-forward {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e075";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e075";
+
+    }
+
 }
 
 %icon-fast-forward {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e076";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e076";
+
+    }
+
 }
 
 %icon-step-forward {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e077";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e077";
+
+    }
+
 }
 
 %icon-eject {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e078";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e078";
+
+    }
+
 }
 
 %icon-chevron-left {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e079";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e079";
+
+    }
+
 }
 
 %icon-chevron-right {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e080";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e080";
+
+    }
+
 }
 
 %icon-plus-sign {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e081";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e081";
+
+    }
+
 }
 
 %icon-minus-sign {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e082";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e082";
+
+    }
+
 }
 
 %icon-remove-sign {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e083";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e083";
+
+    }
+
 }
 
 %icon-ok-sign {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e084";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e084";
+
+    }
+
 }
 
 %icon-question-sign {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e085";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e085";
+
+    }
+
 }
 
 %icon-info-sign {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e086";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e086";
+
+    }
+
 }
 
 %icon-screenshot {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e087";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e087";
+
+    }
+
 }
 
 %icon-remove-circle {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e088";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e088";
+
+    }
+
 }
 
 %icon-ok-circle {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e089";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e089";
+
+    }
+
 }
 
 %icon-ban-circle {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e090";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e090";
+
+    }
+
 }
 
 %icon-arrow-left {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e091";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e091";
+
+    }
+
 }
 
 %icon-arrow-right {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e092";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e092";
+
+    }
+
 }
 
 %icon-arrow-up {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e093";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e093";
+
+    }
+
 }
 
 %icon-arrow-down {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e094";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e094";
+
+    }
+
 }
 
 %icon-share-alt {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e095";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e095";
+
+    }
+
 }
 
 %icon-resize-full {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e096";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e096";
+
+    }
+
 }
 
 %icon-resize-small {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e097";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e097";
+
+    }
+
 }
 
 %icon-exclamation-sign {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e101";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e101";
+
+    }
+
 }
 
 %icon-gift {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e102";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e102";
+
+    }
+
 }
 
 %icon-leaf {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e103";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e103";
+
+    }
+
 }
 
 %icon-fire {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e104";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e104";
+
+    }
+
 }
 
 %icon-eye-open {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e105";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e105";
+
+    }
+
 }
 
 %icon-eye-close {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e106";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e106";
+
+    }
+
 }
 
 %icon-warning-sign {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e107";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e107";
+
+    }
+
 }
 
 %icon-plane {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e108";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e108";
+
+    }
+
 }
 
 %icon-calendar {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e109";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e109";
+
+    }
+
 }
 
 %icon-random {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e110";
 
-	}
-}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e110";
 
-%icon-comment {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e111";
+    }
 
-	}
 }
 
 %icon-magnet {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e112";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e112";
+
+    }
+
 }
 
 %icon-chevron-up {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e113";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e113";
+
+    }
+
 }
 
 %icon-chevron-down {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e114";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e114";
+
+    }
+
 }
 
 %icon-retweet {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e115";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e115";
+
+    }
+
 }
 
 %icon-shopping-cart {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e116";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e116";
+
+    }
+
 }
 
 %icon-folder-close {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e117";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e117";
+
+    }
+
 }
 
 %icon-folder-open {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e118";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e118";
+
+    }
+
 }
 
 %icon-resize-vertical {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e119";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e119";
+
+    }
+
 }
 
 %icon-resize-horizontal {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e120";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e120";
+
+    }
+
 }
 
 %icon-hdd {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e121";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e121";
+
+    }
+
 }
 
 %icon-bullhorn {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e122";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e122";
+
+    }
+
 }
 
 %icon-bell {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e123";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e123";
+
+    }
+
 }
 
 %icon-certificate {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e124";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e124";
+
+    }
+
 }
 
 %icon-thumbs-up {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e125";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e125";
+
+    }
+
 }
 
 %icon-thumbs-down {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e126";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e126";
+
+    }
+
 }
 
 %icon-hand-right {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e127";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e127";
+
+    }
+
 }
 
 %icon-hand-left {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e128";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e128";
+
+    }
+
 }
 
 %icon-hand-up {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e129";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e129";
+
+    }
+
 }
 
 %icon-hand-down {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e130";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e130";
+
+    }
+
 }
 
 %icon-circle-arrow-right {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e131";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e131";
+
+    }
+
 }
 
 %icon-circle-arrow-left {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e132";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e132";
+
+    }
+
 }
 
 %icon-circle-arrow-up {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e133";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e133";
+
+    }
+
 }
 
 %icon-circle-arrow-down {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e134";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e134";
+
+    }
+
 }
 
 %icon-globe {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e135";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e135";
+
+    }
+
 }
 
 %icon-wrench {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e136";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e136";
+
+    }
+
 }
 
 %icon-tasks {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e137";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e137";
+
+    }
+
 }
 
 %icon-filter {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e138";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e138";
+
+    }
+
 }
 
 %icon-briefcase {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e139";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e139";
+
+    }
+
 }
 
 %icon-fullscreen {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e140";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e140";
+
+    }
+
 }
 
 %icon-dashboard {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e141";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e141";
+
+    }
+
 }
 
 %icon-paperclip {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e142";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e142";
+
+    }
+
 }
 
 %icon-heart-empty {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e143";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e143";
+
+    }
+
 }
 
 %icon-link {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e144";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e144";
+
+    }
+
 }
 
 %icon-phone {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e145";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e145";
+
+    }
+
 }
 
 %icon-pushpin {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e146";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e146";
+
+    }
+
 }
 
 %icon-usd {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e148";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e148";
+
+    }
+
 }
 
 %icon-gbp {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e149";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e149";
+
+    }
+
 }
 
 %icon-sort {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e150";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e150";
+
+    }
+
 }
 
 %icon-sort-by-alphabet {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e151";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e151";
+
+    }
+
 }
 
 %icon-sort-by-alphabet-alt {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e152";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e152";
+
+    }
+
 }
 
 %icon-sort-by-order {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e153";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e153";
+
+    }
+
 }
 
 %icon-sort-by-order-alt {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e154";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e154";
+
+    }
+
 }
 
 %icon-sort-by-attributes {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e155";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e155";
+
+    }
+
 }
 
 %icon-sort-by-attributes-alt {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e156";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e156";
+
+    }
+
 }
 
 %icon-unchecked {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e157";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e157";
+
+    }
+
 }
 
 %icon-expand {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e158";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e158";
+
+    }
+
 }
 
 %icon-collapse-down {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e159";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e159";
+
+    }
+
 }
 
 %icon-collapse-up {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e160";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e160";
+
+    }
+
 }
 
 %icon-log-in {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e161";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e161";
+
+    }
+
 }
 
 %icon-flash {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e162";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e162";
+
+    }
+
 }
 
 %icon-log-out {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e163";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e163";
+
+    }
+
 }
 
 %icon-new-window {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e164";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e164";
+
+    }
+
 }
 
 %icon-record {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e165";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e165";
+
+    }
+
 }
 
 %icon-save {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e166";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e166";
+
+    }
+
 }
 
 %icon-open {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e167";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e167";
+
+    }
+
 }
 
 %icon-saved {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e168";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e168";
+
+    }
+
 }
 
 %icon-import {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e169";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e169";
+
+    }
+
 }
 
 %icon-export {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e170";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e170";
+
+    }
+
 }
 
 %icon-send {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e171";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e171";
+
+    }
+
 }
 
 %icon-floppy-disk {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e172";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e172";
+
+    }
+
 }
 
 %icon-floppy-saved {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e173";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e173";
+
+    }
+
 }
 
 %icon-floppy-remove {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e174";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e174";
+
+    }
+
 }
 
 %icon-floppy-save {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e175";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e175";
+
+    }
+
 }
 
 %icon-floppy-open {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e176";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e176";
+
+    }
+
 }
 
 %icon-credit-card {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e177";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e177";
+
+    }
+
 }
 
 %icon-transfer {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e178";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e178";
+
+    }
+
 }
 
 %icon-cutlery {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e179";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e179";
+
+    }
+
 }
 
 %icon-header {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e180";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e180";
+
+    }
+
 }
 
 %icon-compressed {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e181";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e181";
+
+    }
+
 }
 
 %icon-earphone {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e182";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e182";
+
+    }
+
 }
 
 %icon-phone-alt {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e183";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e183";
+
+    }
+
 }
 
 %icon-tower {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e184";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e184";
+
+    }
+
 }
 
 %icon-stats {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e185";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e185";
+
+    }
+
 }
 
 %icon-sd-video {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e186";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e186";
+
+    }
+
 }
 
 %icon-hd-video {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e187";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e187";
+
+    }
+
 }
 
 %icon-subtitles {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e188";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e188";
+
+    }
+
 }
 
 %icon-sound-stereo {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e189";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e189";
+
+    }
+
 }
 
 %icon-sound-dolby {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e190";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e190";
+
+    }
+
 }
 
 %icon-sound-5-1 {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e191";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e191";
+
+    }
+
 }
 
 %icon-sound-6-1 {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e192";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e192";
+
+    }
+
 }
 
 %icon-sound-7-1 {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e193";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e193";
+
+    }
+
 }
 
 %icon-copyright-mark {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e194";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e194";
+
+    }
+
 }
 
 %icon-registration-mark {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e195";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e195";
+
+    }
+
 }
 
 %icon-cloud-download {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e197";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e197";
+
+    }
+
 }
 
 %icon-cloud-upload {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e198";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e198";
+
+    }
+
 }
 
 %icon-tree-conifer {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e199";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e199";
+
+    }
+
 }
 
 %icon-tree-deciduous {
-	
-	&:before {
-  		
-  		@extend %glyphicons;
-  		content: "\e200";
 
-	}
+    &:before {
+      
+      @extend %glyphicons;
+      content: "\e200";
+
+    }
 }
