@@ -1,0 +1,15 @@
+// Generate Classes Mixin
+
+@mixin generate-classes($properties) {
+
+    @each $prop in $properties {
+
+        .icon-#{$prop} {
+
+			@extend %icon-#{$prop};
+
+        }
+
+    }
+
+}

@@ -1,0 +1,45 @@
+// ---------- Base styling for Template Layout
+
+header {
+
+	@extend %header;
+
+}
+
+section {
+
+	width: 100%;
+
+}
+
+article {
+
+	max-width: 1200px;
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+h1 {
+
+	font-size: 24px;
+
+}
+
+h2 {
+
+	font-size: 20px;
+
+}
+
+h3 {
+
+	font-size: 15px;
+
+}
+
+footer {
+
+	@extend %footer;
+
+}
