@@ -2,7 +2,6 @@ var iconData = {
 
 	"icons": [
 
-		// ---------- Gouda Icons
 		{"icon":"404"},
 
 		{"icon":"adjust"},

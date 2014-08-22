@@ -1469,19 +1469,19 @@ h3 {
   font-size: 15px;
 }
 
-/* line 4, styles.scss */
+/* line 5, styles.scss */
 body {
   color: #222;
 }
 
-/* line 10, styles.scss */
+/* line 11, styles.scss */
 li {
   display: inline-block;
   width: 150px;
   font-size: 15px;
   text-align: center;
 }
-/* line 17, styles.scss */
+/* line 18, styles.scss */
 li a {
   display: block;
   width: 100%;
@@ -1495,13 +1495,13 @@ li a {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 32, styles.scss */
+/* line 33, styles.scss */
 li a:hover {
   color: #fff;
   background: #3ea5ce;
 }
 
-/* line 43, styles.scss */
+/* line 44, styles.scss */
 i {
   font-size: 20px;
 }

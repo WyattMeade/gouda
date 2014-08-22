@@ -48,3 +48,5 @@ i {
 	font-size: 20px;
 
 }
+
+@include generate-classes($properties);
