@@ -5,11 +5,49 @@ var iconData = {
 		// ---------- Gouda Icons
 		{"icon":"404"},
 
+		{"icon":"adjust"},
+
+		{"icon":"align-center"},
+
+		{"icon":"align-left"},
+
+		{"icon":"align-justify"},
+
+		{"icon":"align-right"},
+
+		{"icon":"arrow-down"},
+
+		{"icon":"arrow-left"},
+
+		{"icon":"arrow-right"},
+
+		{"icon":"arrow-up"},
+
 		{"icon":"aside"},
 
 		{"icon":"asterisk"},
 
+		{"icon":"backward"},
+
+		{"icon":"ban-circle"},
+
+		{"icon":"barcode"},
+
+		{"icon":"book"},
+
+		{"icon":"bookmark"},
+
+		{"icon":"bold"},
+
+		{"icon":"camera"},
+
 		{"icon":"chat"},
+
+		{"icon":"check"},
+
+		{"icon":"chevron-left"},
+
+		{"icon":"chevron-right"},
 
 		{"icon":"close-alt"},
 
@@ -49,15 +87,31 @@ var iconData = {
 
 		{"icon":"dropdown-left"},
 
+		{"icon":"edit"},
+
+		{"icon":"eject"},
+
 		{"icon":"ellipsis"},
 
 		{"icon":"envelope"},
 
 		{"icon":"euro"},
 
+		{"icon":"exclamation-sign"},
+
+		{"icon":"eye-close"},
+
+		{"icon":"eye-open"},
+
 		{"icon":"facebook"},
 
 		{"icon":"facebook-alt"},
+
+		{"icon":"facetime-video"},
+
+		{"icon":"fast-backward"},
+
+		{"icon":"fast-forward"},
 
 		{"icon":"feed"},
 
@@ -65,11 +119,21 @@ var iconData = {
 
 		{"icon":"film"},
 
+		{"icon":"fire"},
+
+		{"icon":"flag"},
+
 		{"icon":"flickr"},
+
+		{"icon":"font"},
+
+		{"icon":"forward"},
 
 		{"icon":"foursquare"},
 
 		{"icon":"gallery"},
+
+		{"icon":"gift"},
 
 		{"icon":"github"},
 
@@ -79,6 +143,8 @@ var iconData = {
 
 		{"icon":"googleplus-alt"},
 
+		{"icon":"headphones"},
+
 		{"icon":"heart"},
 
 		{"icon":"hierarchy"},
@@ -87,9 +153,19 @@ var iconData = {
 
 		{"icon":"inbox"},
 
+		{"icon":"indent-left"},
+
+		{"icon":"indent-right"},
+
+		{"icon":"info-sign"},
+
 		{"icon":"instagram"},
 
+		{"icon":"italic"},
+
 		{"icon":"key"},
+
+		{"icon":"leaf"},
 
 		{"icon":"leftarrow"},
 
@@ -97,11 +173,23 @@ var iconData = {
 
 		{"icon":"linkedin-alt"},
 
+		{"icon":"list"},
+
+		{"icon":"list-alt"},
+
+		{"icon":"lock"},
+
+		{"icon":"map-marker"},
+
 		{"icon":"maximize"},
 
 		{"icon":"menu"},
 
 		{"icon":"minus"},
+
+		{"icon":"minus-sign"},
+
+		{"icon":"move"},
 
 		{"icon":"music"},
 
@@ -109,19 +197,33 @@ var iconData = {
 
 		{"icon":"ok"},
 
+		{"icon":"ok-circle"},
+
+		{"icon":"ok-sign"},
+
 		{"icon":"paintbrush"},
 
 		{"icon":"path"},
 
+		{"icon":"pause"},
+
 		{"icon":"pencil"},
+
+		{"icon":"picture"},
 
 		{"icon":"pinterest"},
 
 		{"icon":"pinterest-alt"},
 
+		{"icon":"play"},
+
+		{"icon":"play-circle"},
+
 		{"icon":"plugin"},
 
 		{"icon":"plus"},
+
+		{"icon":"plus-sign"},
 
 		{"icon":"pocket"},
 
@@ -129,13 +231,27 @@ var iconData = {
 
 		{"icon":"portfolio"},
 
+		{"icon":"print"},
+
+		{"icon":"qrcode"},
+
+		{"icon":"question-sign"},
+
 		{"icon":"quote"},
 
 		{"icon":"reddit"},
 
+		{"icon":"refresh"},
+
 		{"icon":"registration-mark"},
 
 		{"icon":"remove"},
+
+		{"icon":"remove-circle"},
+
+		{"icon":"remove-sign"},
+
+		{"icon":"repeat"},
 
 		{"icon":"reply"},
 
@@ -143,15 +259,25 @@ var iconData = {
 
 		{"icon":"reply-single"},
 
+		{"icon":"resize-full"},
+
+		{"icon":"resize-small"},
+
 		{"icon":"rightarrow"},
 
 		{"icon":"road"},
+
+		{"icon":"screenshot"},
 
 		{"icon":"search"},
 
 		{"icon":"send-to-phone"},
 
 		{"icon":"send-to-tablet"},
+
+		{"icon":"share"},
+
+		{"icon":"share-alt"},
 
 		{"icon":"signal"},
 
@@ -169,6 +295,12 @@ var iconData = {
 
 		{"icon":"star-empty"},
 
+		{"icon":"step-backward"},
+
+		{"icon":"step-forward"},
+
+		{"icon":"stop"},
+
 		{"icon":"stumbleupon"},
 
 		{"icon":"subscribe"},
@@ -177,6 +309,14 @@ var iconData = {
 
 		{"icon":"tablet"},
 
+		{"icon":"tag"},
+
+		{"icon":"tags"},
+
+		{"icon":"text-height"},
+
+		{"icon":"text-width"},
+
 		{"icon":"th"},
 
 		{"icon":"th-large"},
@@ -184,6 +324,8 @@ var iconData = {
 		{"icon":"th-list"},
 
 		{"icon":"time"},
+
+		{"icon":"tint"},
 
 		{"icon":"top"},
 
@@ -205,6 +347,12 @@ var iconData = {
 
 		{"icon":"vimeo"},
 
+		{"icon":"volume-down"},
+
+		{"icon":"volume-off"},
+
+		{"icon":"volume-up"},
+
 		{"icon":"week"},
 
 		{"icon":"wordpress"},
@@ -216,154 +364,6 @@ var iconData = {
 		{"icon":"zoom-in"},
 
 		{"icon":"zoom-out"},
-
-		{"icon":"play-circle"},
-
-		{"icon":"repeat"},
-
-		{"icon":"refresh"},
-
-		{"icon":"list-alt"},
-
-		{"icon":"lock"},
-
-		{"icon":"flag"},
-
-		{"icon":"headphones"},
-
-		{"icon":"volume-off"},
-
-		{"icon":"volume-down"},
-
-		{"icon":"volume-up"},
-
-		{"icon":"qrcode"},
-
-		{"icon":"barcode"},
-
-		{"icon":"tag"},
-
-		{"icon":"tags"},
-
-		{"icon":"book"},
-
-		{"icon":"bookmark"},
-
-		{"icon":"print"},
-
-		{"icon":"camera"},
-
-		{"icon":"font"},
-
-		{"icon":"bold"},
-
-		{"icon":"italic"},
-
-		{"icon":"text-height"},
-
-		{"icon":"text-width"},
-
-		{"icon":"align-left"},
-
-		{"icon":"align-center"},
-
-		{"icon":"align-right"},
-
-		{"icon":"align-justify"},
-
-		{"icon":"list"},
-
-		{"icon":"indent-left"},
-
-		{"icon":"indent-right"},
-
-		{"icon":"facetime-video"},
-
-		{"icon":"picture"},
-
-		{"icon":"map-marker"},
-
-		{"icon":"adjust"},
-
-		{"icon":"tint"},
-
-		{"icon":"edit"},
-
-		{"icon":"share"},
-
-		{"icon":"check"},
-
-		{"icon":"move"},
-
-		{"icon":"step-backward"},
-
-		{"icon":"fast-backward"},
-
-		{"icon":"backward"},
-
-		{"icon":"play"},
-
-		{"icon":"pause"},
-
-		{"icon":"stop"},
-
-		{"icon":"forward"},
-
-		{"icon":"fast-forward"},
-
-		{"icon":"step-forward"},
-
-		{"icon":"eject"},
-
-		{"icon":"chevron-left"},
-
-		{"icon":"chevron-right"},
-
-		{"icon":"plus-sign"},
-
-		{"icon":"minus-sign"},
-
-		{"icon":"remove-sign"},
-
-		{"icon":"ok-sign"},
-
-		{"icon":"question-sign"},
-
-		{"icon":"info-sign"},
-
-		{"icon":"screenshot"},
-
-		{"icon":"remove-circle"},
-
-		{"icon":"ok-circle"},
-
-		{"icon":"ban-circle"},
-
-		{"icon":"arrow-left"},
-
-		{"icon":"arrow-right"},
-
-		{"icon":"arrow-up"},
-
-		{"icon":"arrow-down"},
-
-		{"icon":"share-alt"},
-
-		{"icon":"resize-full"},
-
-		{"icon":"resize-small"},
-
-		{"icon":"exclamation-sign"},
-
-		{"icon":"gift"},
-
-		{"icon":"leaf"},
-
-		{"icon":"fire"},
-
-		{"icon":"eye-open"},
-
-		{"icon":"eye-close"},
 
 		{"icon":"warning-sign"},
 
