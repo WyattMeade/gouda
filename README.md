@@ -38,7 +38,7 @@ http://getbootstrap.com/components/#glyphicons
 
 ###Usage
 
-The benefit of Gouda is that it allows you to extend the font icons and use them however you'd like. You should be able to use this on any tag with (or without) an identifier such as a class, ID, data attribute, and so on.
+The benefit of Gouda is that it allows you to extend only the font icons you need to use and provide the flexibility to use them how you'd like. Below are examples of how you can use the fonts.
 
 ####Icon Using Tag Only
 
