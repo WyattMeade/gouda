@@ -13,6 +13,8 @@ var iconData = {
 
 		{"icon":"close-alt"},
 
+		{"icon":"cloud"},
+
 		{"icon":"cloud-download"},
 
 		{"icon":"cloud-upload"},
@@ -35,6 +37,10 @@ var iconData = {
 
 		{"icon":"downarrow"},
 
+		{"icon":"download"},
+
+		{"icon":"download-alt"},
+
 		{"icon":"dribbble"},
 
 		{"icon":"dropbox"},
@@ -45,6 +51,8 @@ var iconData = {
 
 		{"icon":"ellipsis"},
 
+		{"icon":"envelope"},
+
 		{"icon":"euro"},
 
 		{"icon":"facebook"},
@@ -52,6 +60,10 @@ var iconData = {
 		{"icon":"facebook-alt"},
 
 		{"icon":"feed"},
+
+		{"icon":"file"},
+
+		{"icon":"film"},
 
 		{"icon":"flickr"},
 
@@ -61,11 +73,19 @@ var iconData = {
 
 		{"icon":"github"},
 
+		{"icon":"glass"},
+
 		{"icon":"googleplus"},
 
 		{"icon":"googleplus-alt"},
 
+		{"icon":"heart"},
+
 		{"icon":"hierarchy"},
+
+		{"icon":"home"},
+
+		{"icon":"inbox"},
 
 		{"icon":"instagram"},
 
@@ -83,9 +103,17 @@ var iconData = {
 
 		{"icon":"minus"},
 
+		{"icon":"music"},
+
+		{"icon":"off"},
+
+		{"icon":"ok"},
+
 		{"icon":"paintbrush"},
 
 		{"icon":"path"},
+
+		{"icon":"pencil"},
 
 		{"icon":"pinterest"},
 
@@ -107,6 +135,8 @@ var iconData = {
 
 		{"icon":"registration-mark"},
 
+		{"icon":"remove"},
+
 		{"icon":"reply"},
 
 		{"icon":"reply-alt"},
@@ -115,9 +145,15 @@ var iconData = {
 
 		{"icon":"rightarrow"},
 
+		{"icon":"road"},
+
+		{"icon":"search"},
+
 		{"icon":"send-to-phone"},
 
 		{"icon":"send-to-tablet"},
+
+		{"icon":"signal"},
 
 		{"icon":"sitemap"},
 
@@ -129,6 +165,10 @@ var iconData = {
 
 		{"icon":"status"},
 
+		{"icon":"star"},
+
+		{"icon":"star-empty"},
+
 		{"icon":"stumbleupon"},
 
 		{"icon":"subscribe"},
@@ -137,7 +177,17 @@ var iconData = {
 
 		{"icon":"tablet"},
 
+		{"icon":"th"},
+
+		{"icon":"th-large"},
+
+		{"icon":"th-list"},
+
+		{"icon":"time"},
+
 		{"icon":"top"},
+
+		{"icon":"trash"},
 
 		{"icon":"tumblr"},
 
@@ -146,6 +196,10 @@ var iconData = {
 		{"icon":"unsubscribe"},
 
 		{"icon":"uparrow"},
+
+		{"icon":"upload"},
+
+		{"icon":"user"},
 
 		{"icon":"video"},
 
@@ -159,65 +213,9 @@ var iconData = {
 
 		{"icon":"youtube"},
 
-		{"icon":"cloud"},
-
-		{"icon":"envelope"},
-
-		{"icon":"pencil"},
-
-		{"icon":"glass"},
-
-		{"icon":"music"},
-
-		{"icon":"search"},
-
-		{"icon":"heart"},
-
-		{"icon":"star"},
-
-		{"icon":"star-empty"},
-
-		{"icon":"user"},
-
-		{"icon":"film"},
-
-		{"icon":"th-large"},
-
-		{"icon":"th"},
-
-		{"icon":"th-list"},
-
-		{"icon":"ok"},
-
-		{"icon":"remove"},
-
 		{"icon":"zoom-in"},
 
 		{"icon":"zoom-out"},
-
-		{"icon":"off"},
-
-		{"icon":"signal"},
-
-		{"icon":"cog"},
-
-		{"icon":"trash"},
-
-		{"icon":"home"},
-
-		{"icon":"file"},
-
-		{"icon":"time"},
-
-		{"icon":"road"},
-
-		{"icon":"download-alt"},
-
-		{"icon":"download"},
-
-		{"icon":"upload"},
-
-		{"icon":"inbox"},
 
 		{"icon":"play-circle"},
 
