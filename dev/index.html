@@ -18,39 +18,20 @@
 
 </header>
 
-<section class="intro">
+<section>
 	
 	<article>
-		
-		<p>269 Font Icons that should suit your needs. Combination of Fonts from Genericons and Glyphicons. Built with SCSS so you can quickly drop into your project and go.</p>
 
-		<div class="icons">
-			
-			<div class="guide"></div>
-			<ul></ul>
 
-		</div>
 
 	</article>
 
 </section>
 
-<script id="icon-template" type="text/x-handlebars-template">
-	
-	{{#each icons}}
-	<li>
-		<a href="#" data-index="{{@index}}" data-icon="{{icon}}">
-			<i class="icon-{{icon}}"></i>
-			<p>{{icon}}</p>
-		</a>
-	</li>	
-	{{/each}}
-
-</script>
-
 <!-- build:js js/gouda.js -->
 	<script src="js/jquery.js"></script>
 	<script src="js/handlebars.min.js"></script>
+	<script src="js/templates/compiled.js"></script>
 	<script src="js/icons.js"></script>
 	<script src="js/scripts.js"></script>
 <!-- endbuild -->
