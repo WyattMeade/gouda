@@ -12,12 +12,17 @@ Gouda = ->
 		model: iconData
 		templates: Handlebars.templates
 
+
+
+
 	renderGuide = (icon) ->
 
 		model =
 			icon: ""+icon+""
 
 		this.$el.find(".guide").html this.opt.templates["guide"](model)
+
+
 
 
 	renderTemplates = ->
@@ -46,6 +51,7 @@ Gouda = ->
 	init = ->
 
 		this.$el = opt.scope
+
 		renderTemplates()
 		bindEvents()
 
@@ -53,6 +59,8 @@ Gouda = ->
 
 
 	init()
+
+
 
 
 Gouda()

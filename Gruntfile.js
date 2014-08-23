@@ -35,7 +35,7 @@ module.exports = function(grunt) {
                 }
             },
             handlebars: {
-                files: ['<%= config.app %>/templates/**/*.hbs'],
+                files: ['<%= config.app %>/js/templates/**/*.hbs'],
                 tasks: ['handlebars'],
                 options: {
                     livereload: true
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
         handlebars: {
             compile: {
                 files: {
-                    "<%= config.app %>/templates/compiled.js": ["<%= config.app %>/templates/**/*.hbs"]
+                    "<%= config.app %>/js/templates/compiled.js": ["<%= config.app %>/js/templates/**/*.hbs"]
                 },
                 options: {
                     namespace: 'Handlebars.templates',
