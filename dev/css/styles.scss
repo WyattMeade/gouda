@@ -50,3 +50,40 @@ i {
 }
 
 @include generate-classes($properties);
+
+.guide {
+
+	i {
+
+		@extend %inline-block;
+
+		vertical-align: middle;
+		margin: 0 10px;
+
+	}
+
+	[data-size="xlrg"] {
+
+		font-size: 200px;
+		
+	}
+
+	[data-size="lrg"] {
+
+		font-size: 100px
+
+	}
+
+	[data-size="med"] {
+
+		font-size: 50px
+
+	}
+
+	[data-size="sm"] {
+
+		font-size: 25px
+
+	}
+
+}
