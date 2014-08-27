@@ -1,83 +1,30 @@
 @import "app/base/reset";
 @import "app/base/core";
 @import "app/layout/wrapper";
+@import "pages/icon-container";
+@import "pages/guide";
 
-li {
+.intro {
 
-	display: inline-block;
-	width: 150px;
-	font-size: 15px;
-	text-align: center;
 
-	a {
 
-		display: block;
-		width: 100%;
-		height: 50px;
-		padding: 25px 0;
-		color: #444;
-		background: #fff;
-		text-decoration: none;
+}
 
-		-webkit-transition: all .3s ease-in-out;
-		-moz-transition: all .3s ease-in-out;
-		-o-transition: all .3s ease-in-out;
-		transition: all .3s ease-in-out;
+.icons {
 
-		&:hover {
+	ul {
 
-			color: #fff;
-			background: #3ea5ce;
-
-		}
+		@extend %icon-container;
 
 	}
 
 }
 
-i {
-
-	@extend %icon;
-
-	font-size: 20px;
-
-}
 
 @include generate-classes($properties);
 
 .guide {
 
-	i {
-
-		@extend %inline-block;
-
-		vertical-align: middle;
-		margin: 0 10px;
-
-	}
-
-	[data-size="xlrg"] {
-
-		font-size: 200px;
-		
-	}
-
-	[data-size="lrg"] {
-
-		font-size: 100px
-
-	}
-
-	[data-size="med"] {
-
-		font-size: 50px
-
-	}
-
-	[data-size="sm"] {
-
-		font-size: 25px
-
-	}
+	@extend %guide;
 
 }

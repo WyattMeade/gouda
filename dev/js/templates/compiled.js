@@ -47,7 +47,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
 function program1(depth0,data) {
   
   var buffer = "", stack1, helper;
-  buffer += "\n<li>\n	<a href=\"#\" data-index=\""
+  buffer += "<li>\n	<a href=\"#\" data-index=\""
     + escapeExpression(((stack1 = (data == null || data === false ? data : data.index)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "\" data-icon=\"";
   if (helper = helpers.icon) { stack1 = helper.call(depth0, {hash:{},data:data}); }
@@ -61,7 +61,7 @@ function program1(depth0,data) {
   if (helper = helpers.icon) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.icon); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "</p>\n	</a>\n</li>	\n";
+    + "</p>\n	</a>\n</li>";
   return buffer;
   }
 
@@ -76,5 +76,5 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<div class=\"intro\">\n		\n	<p>269 Font Icons that should suit your needs. Combination of Fonts from Genericons and Glyphicons. Built with SCSS so you can quickly drop into your project and go.</p>\n\n</div>\n\n<div class=\"icons\">\n	\n	<div class=\"guide\"></div>\n	<ul class=\"icons-list\"></ul>\n\n</div>";
+  return "<div class=\"intro\">\n		\n	<p>269 Font Icons that should suit your needs. Combination of Fonts from Genericons and Glyphicons. Built with SCSS so you can quickly drop into your project and go.</p>\n\n</div>\n\n<div class=\"icons\">\n	\n	<div class=\"guide\"></div>\n	<ul class=\"icons-container\"></ul>\n\n</div>";
   });

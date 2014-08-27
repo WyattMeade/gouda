@@ -31,7 +31,7 @@ Gouda = ->
 		this.$el.find("article").append this.opt.templates["main"]
 
 		#Render Icons List
-		this.$el.find(".icons-list").append this.opt.templates["iconsList"](this.opt.model)
+		this.$el.find(".icons-container").append this.opt.templates["iconsList"](this.opt.model)
 
 
 

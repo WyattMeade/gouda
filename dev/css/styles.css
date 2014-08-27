@@ -8,27 +8,28 @@ fieldset, header, nav, section, article, aside, footer {
 /* line 11, app/base/_reset.scss */
 html, body {
   width: 100%;
+  height: 100%;
   position: relative;
 }
 
-/* line 18, app/base/_reset.scss */
+/* line 19, app/base/_reset.scss */
 html {
   -webkit-text-size-adjust: none;
 }
 
-/* line 24, app/base/_reset.scss */
+/* line 25, app/base/_reset.scss */
 article, aside, footer, header, nav, section, figure {
   display: block;
   position: relative;
 }
 
-/* line 31, app/base/_reset.scss */
+/* line 32, app/base/_reset.scss */
 img {
   border: none;
   display: block;
 }
 
-/* line 38, app/base/_reset.scss */
+/* line 39, app/base/_reset.scss */
 a {
   cursor: pointer;
 }
@@ -1438,16 +1439,17 @@ i {
 /* line 1, app/layout/_header.scss */
 header {
   width: 100%;
-  padding: 150px 0;
+  height: 100%;
 }
 /* line 6, app/layout/_header.scss */
 header h1 {
   font-size: 200px;
+  margin: 150px 0 0;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: -10px;
 }
-/* line 15, app/layout/_header.scss */
+/* line 16, app/layout/_header.scss */
 header h3 {
   font-size: 35px;
   text-align: center;
@@ -1468,7 +1470,7 @@ body {
 /* line 17, app/layout/_wrapper.scss */
 section {
   width: 100%;
-  padding: 100px 0;
+  padding: 150px 0;
   background: #ebebe5;
 }
 
@@ -1480,60 +1482,67 @@ article {
 }
 
 /* line 33, app/layout/_wrapper.scss */
+i {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* line 41, app/layout/_wrapper.scss */
 h2 {
   font-size: 20px;
 }
 
-/* line 5, styles.scss */
-li {
-  display: inline-block;
-  width: 150px;
-  font-size: 15px;
+/* line 1, pages/_icon-container.scss */
+.icons ul {
+  display: block;
+  width: 100%;
   text-align: center;
 }
-/* line 12, styles.scss */
-li a {
+/* line 7, pages/_icon-container.scss */
+.icons ul li {
+  display: inline-block;
+  width: 160px;
+  font-size: 14px;
+  text-align: center;
+}
+/* line 14, pages/_icon-container.scss */
+.icons ul li a {
   display: block;
   width: 100%;
   height: 50px;
   padding: 25px 0;
-  color: #444;
-  background: #fff;
+  color: #716e64;
+  background: #ebebe5;
   text-decoration: none;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 27, styles.scss */
-li a:hover {
-  color: #fff;
-  background: #3ea5ce;
+/* line 29, pages/_icon-container.scss */
+.icons ul li a:hover {
+  color: #ebebe5;
+  background: #716e64;
 }
 
-/* line 38, styles.scss */
-i {
-  font-size: 20px;
-}
-
-/* line 50, styles.scss */
+/* line 3, pages/_guide.scss */
 .guide i {
   vertical-align: middle;
   margin: 0 10px;
 }
-/* line 59, styles.scss */
+/* line 12, pages/_guide.scss */
 .guide [data-size="xlrg"] {
   font-size: 200px;
 }
-/* line 65, styles.scss */
+/* line 18, pages/_guide.scss */
 .guide [data-size="lrg"] {
   font-size: 100px;
 }
-/* line 71, styles.scss */
+/* line 24, pages/_guide.scss */
 .guide [data-size="med"] {
   font-size: 50px;
 }
-/* line 77, styles.scss */
+/* line 30, pages/_guide.scss */
 .guide [data-size="sm"] {
   font-size: 25px;
 }

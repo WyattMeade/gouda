@@ -17,7 +17,7 @@ header {
 section {
 
 	width: 100%;
-	padding: 100px 0;
+	padding: 150px 0;
 	background: $brown-02;
 
 }
@@ -27,6 +27,14 @@ article {
 	max-width: 1200px;
 	width: 90%;
 	margin: 0 auto;
+
+}
+
+i {
+
+	@extend %icon;
+	font-size: 20px;
+	margin-bottom: 10px
 
 }
 

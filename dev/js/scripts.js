@@ -26,7 +26,7 @@
     };
     renderTemplates = function() {
       this.$el.find("article").append(this.opt.templates["main"]);
-      return this.$el.find(".icons-list").append(this.opt.templates["iconsList"](this.opt.model));
+      return this.$el.find(".icons-container").append(this.opt.templates["iconsList"](this.opt.model));
     };
     bindEvents = function() {
       return $(document).on("click", "[data-icon]", function(e) {
