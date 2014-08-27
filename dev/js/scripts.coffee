@@ -14,13 +14,16 @@ Gouda = ->
 
 
 
-
 	renderGuide = (icon) ->
 
 		model =
 			icon: ""+icon+""
 
 		this.$el.find(".guide").html this.opt.templates["guide"](model)
+
+		iconsTop = $(".icons").offset().top
+
+		$("html, body").animate { scrollTop: iconsTop }, "slow"
 
 
 
@@ -53,6 +56,7 @@ Gouda = ->
 		this.$el = opt.scope
 
 		renderTemplates()
+
 		bindEvents()
 
 

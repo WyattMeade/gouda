@@ -18,11 +18,15 @@
       templates: Handlebars.templates
     };
     renderGuide = function(icon) {
-      var model;
+      var iconsTop, model;
       model = {
         icon: "" + icon + ""
       };
-      return this.$el.find(".guide").html(this.opt.templates["guide"](model));
+      this.$el.find(".guide").html(this.opt.templates["guide"](model));
+      iconsTop = $(".icons").offset().top;
+      return $("html, body").animate({
+        scrollTop: iconsTop
+      }, "slow");
     };
     renderTemplates = function() {
       this.$el.find("article").append(this.opt.templates["main"]);
