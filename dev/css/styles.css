@@ -17,7 +17,7 @@ html {
 }
 
 /* line 24, app/base/_reset.scss */
-article, aside, footer, header, nav, section, figure, date {
+article, aside, footer, header, nav, section, figure {
   display: block;
   position: relative;
 }
@@ -1438,6 +1438,19 @@ i {
 /* line 1, app/layout/_header.scss */
 header {
   width: 100%;
+  padding: 150px 0;
+}
+/* line 6, app/layout/_header.scss */
+header h1 {
+  font-size: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -10px;
+}
+/* line 15, app/layout/_header.scss */
+header h3 {
+  font-size: 35px;
+  text-align: center;
 }
 
 /* line 1, app/layout/_footer.scss */
@@ -1445,46 +1458,40 @@ footer {
   width: 100%;
 }
 
-/* line 9, app/layout/_wrapper.scss */
-section {
-  width: 100%;
+/* line 3, app/layout/_wrapper.scss */
+body {
+  background: #f7f5f0;
+  color: #716e64;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 15, app/layout/_wrapper.scss */
+/* line 17, app/layout/_wrapper.scss */
+section {
+  width: 100%;
+  padding: 100px 0;
+  background: #ebebe5;
+}
+
+/* line 25, app/layout/_wrapper.scss */
 article {
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
 }
 
-/* line 23, app/layout/_wrapper.scss */
-h1 {
-  font-size: 24px;
-}
-
-/* line 29, app/layout/_wrapper.scss */
+/* line 33, app/layout/_wrapper.scss */
 h2 {
   font-size: 20px;
 }
 
-/* line 35, app/layout/_wrapper.scss */
-h3 {
-  font-size: 15px;
-}
-
 /* line 5, styles.scss */
-body {
-  color: #222;
-}
-
-/* line 11, styles.scss */
 li {
   display: inline-block;
   width: 150px;
   font-size: 15px;
   text-align: center;
 }
-/* line 18, styles.scss */
+/* line 12, styles.scss */
 li a {
   display: block;
   width: 100%;
@@ -1498,35 +1505,35 @@ li a {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 33, styles.scss */
+/* line 27, styles.scss */
 li a:hover {
   color: #fff;
   background: #3ea5ce;
 }
 
-/* line 44, styles.scss */
+/* line 38, styles.scss */
 i {
   font-size: 20px;
 }
 
-/* line 56, styles.scss */
+/* line 50, styles.scss */
 .guide i {
   vertical-align: middle;
   margin: 0 10px;
 }
-/* line 65, styles.scss */
+/* line 59, styles.scss */
 .guide [data-size="xlrg"] {
   font-size: 200px;
 }
-/* line 71, styles.scss */
+/* line 65, styles.scss */
 .guide [data-size="lrg"] {
   font-size: 100px;
 }
-/* line 77, styles.scss */
+/* line 71, styles.scss */
 .guide [data-size="med"] {
   font-size: 50px;
 }
-/* line 83, styles.scss */
+/* line 77, styles.scss */
 .guide [data-size="sm"] {
   font-size: 25px;
 }

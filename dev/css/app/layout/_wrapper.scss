@@ -1,5 +1,13 @@
 // ---------- Base styling for Template Layout
 
+body {
+
+	background: $white-02;
+	color: $brown-01;
+	font-family: $helvetica;
+
+}
+
 header {
 
 	@extend %header;
@@ -9,6 +17,8 @@ header {
 section {
 
 	width: 100%;
+	padding: 100px 0;
+	background: $brown-02;
 
 }
 
@@ -20,21 +30,9 @@ article {
 
 }
 
-h1 {
-
-	font-size: 24px;
-
-}
-
 h2 {
 
 	font-size: 20px;
-
-}
-
-h3 {
-
-	font-size: 15px;
 
 }
 
