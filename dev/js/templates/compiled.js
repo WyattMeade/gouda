@@ -11,31 +11,47 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   if (helper = helpers.icon) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.icon); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "</h3>\n\n<i class=\"icon-";
+    + "</h3>\n\n<div class=\"showcase\">\n	\n	<i class=\"icon-";
   if (helper = helpers.icon) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.icon); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "\" data-size=\"xlrg\"></i>\n<i class=\"icon-";
+    + "\" data-size=\"xlrg\"></i>\n	<i class=\"icon-";
   if (helper = helpers.icon) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.icon); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "\" data-size=\"lrg\"></i>\n<i class=\"icon-";
+    + "\" data-size=\"lrg\"></i>\n	<i class=\"icon-";
   if (helper = helpers.icon) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.icon); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "\" data-size=\"med\"></i>\n<i class=\"icon-";
+    + "\" data-size=\"med\"></i>\n	<i class=\"icon-";
   if (helper = helpers.icon) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.icon); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "\" data-size=\"sm\"></i>\n\n<h4>Usage</h4>\n\n@extend %icon;\n\n@extend %icon-";
+    + "\" data-size=\"sm\"></i>\n\n</div>\n\n<h4>Placeholder</h4>\n\n@extend %icon-";
   if (helper = helpers.icon) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.icon); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + ";\n<pre>\n	<code>\n	.icon-";
+    + ";\n\n<h4>Usage</h4>\n\n<h5>On a Tag</h5>\n\n<pre>\n	<code>\n	i {\n\n	    @extend %icon;\n	    @extend %icon-";
   if (helper = helpers.icon) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.icon); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + " {\n\n	    \n	    \n\n	}\n	</code>\n</pre>";
+    + ";\n\n	}\n	</code>\n</pre>\n\n<h5>On a Class</h5>\n\n<pre>\n	<code>\n	.icon-";
+  if (helper = helpers.icon) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.icon); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + " {\n\n	    @extend %icon;\n	    @extend %icon-";
+  if (helper = helpers.icon) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.icon); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + ";\n\n	}\n	</code>\n</pre>\n\n<h5>On a Tag and a Class</h5>\n\n<pre>\n	<code>\n	i {\n\n	    @extend %icon;\n\n	}\n\n	.icon-";
+  if (helper = helpers.icon) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.icon); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + " {\n\n	    @extend %icon-";
+  if (helper = helpers.icon) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.icon); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + ";\n\n	}\n	</code>\n</pre>";
   return buffer;
   });
 
@@ -76,5 +92,5 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<div class=\"intro\">\n		\n	<p>269 Font Icons that should suit your needs. Combination of Fonts from Genericons and Glyphicons. Built with SCSS so you can quickly drop into your project and go.</p>\n\n</div>\n\n<div class=\"icons\">\n	\n	<div class=\"guide\"></div>\n	<ul class=\"icons-container\"></ul>\n\n</div>";
+  return "<div class=\"intro\">\n		\n	<h3>The Icons</h3>\n\n	<p>Over 250 Font Icons that should suit your needs. Combination of Fonts from Genericons and Glyphicons. Built with SCSS so you can quickly drop into your project and go.</p>\n\n	<p>Click on an icon below to get a better look and info on usage.</p>\n\n</div>\n\n<div class=\"icons\">\n	\n	<div class=\"guide\"></div>\n	<ul class=\"icons-container\"></ul>\n\n</div>";
   });

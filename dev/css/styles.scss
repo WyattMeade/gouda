@@ -1,12 +1,13 @@
 @import "app/base/reset";
 @import "app/base/core";
 @import "app/layout/wrapper";
+@import "pages/intro";
 @import "pages/icon-container";
 @import "pages/guide";
 
 .intro {
 
-
+	@extend %intro;
 
 }
 

@@ -1,21 +1,59 @@
 <h3>{{icon}}</h3>
 
-<i class="icon-{{icon}}" data-size="xlrg"></i>
-<i class="icon-{{icon}}" data-size="lrg"></i>
-<i class="icon-{{icon}}" data-size="med"></i>
-<i class="icon-{{icon}}" data-size="sm"></i>
+<div class="showcase">
+	
+	<i class="icon-{{icon}}" data-size="xlrg"></i>
+	<i class="icon-{{icon}}" data-size="lrg"></i>
+	<i class="icon-{{icon}}" data-size="med"></i>
+	<i class="icon-{{icon}}" data-size="sm"></i>
+
+</div>
+
+<h4>Placeholder</h4>
+
+@extend %icon-{{icon}};
 
 <h4>Usage</h4>
 
-@extend %icon;
+<h5>On a Tag</h5>
 
-@extend %icon-{{icon}};
+<pre>
+	<code>
+	i {
+
+	    @extend %icon;
+	    @extend %icon-{{icon}};
+
+	}
+	</code>
+</pre>
+
+<h5>On a Class</h5>
+
 <pre>
 	<code>
 	.icon-{{icon}} {
 
-	    
-	    
+	    @extend %icon;
+	    @extend %icon-{{icon}};
+
+	}
+	</code>
+</pre>
+
+<h5>On a Tag and a Class</h5>
+
+<pre>
+	<code>
+	i {
+
+	    @extend %icon;
+
+	}
+
+	.icon-{{icon}} {
+
+	    @extend %icon-{{icon}};
 
 	}
 	</code>

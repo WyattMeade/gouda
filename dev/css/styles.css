@@ -1492,6 +1492,23 @@ h2 {
   font-size: 20px;
 }
 
+/* line 1, pages/_intro.scss */
+.intro {
+  padding: 0 0 100px;
+}
+/* line 5, pages/_intro.scss */
+.intro h3 {
+  font-size: 100px;
+  text-align: center;
+  margin: 0 0 100px;
+}
+/* line 13, pages/_intro.scss */
+.intro p {
+  font-size: 30px;
+  line-height: 45px;
+  margin: 0 0 40px;
+}
+
 /* line 1, pages/_icon-container.scss */
 .icons ul {
   display: block;
@@ -1545,4 +1562,19 @@ h2 {
 /* line 30, pages/_guide.scss */
 .guide [data-size="sm"] {
   font-size: 25px;
+}
+/* line 36, pages/_guide.scss */
+.guide .showcase {
+  text-align: center;
+}
+/* line 42, pages/_guide.scss */
+.guide h3 {
+  font-size: 75px;
+  text-align: center;
+  margin: 0 0 50px;
+}
+/* line 50, pages/_guide.scss */
+.guide h4 {
+  font-size: 40px;
+  margin: 50px 0 25px;
 }
