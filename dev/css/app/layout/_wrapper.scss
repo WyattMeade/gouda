@@ -44,6 +44,18 @@ h2 {
 
 }
 
+pre {
+
+	padding: 16px;
+	overflow: auto;
+	line-height: 1.45;
+	background-color: $brown-01;
+	color: $brown-02;
+	border-radius: 3px;
+	margin: 0 0 50px;
+
+}
+
 footer {
 
 	@extend %footer;
